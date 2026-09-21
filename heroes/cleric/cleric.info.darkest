@@ -1,0 +1,102 @@
+//抗性：眩晕 腐蚀 流血 疾病 位移 减益 致死 陷阱
+resistances: .stun 35% .poison 30% .bleed 30% .disease 30% .move 35% .debuff 50% .death_blow 67% .trap 15%
+
+//暴击提升压力治疗效果
+crit: .effects "on_crit_stresshealdone"
+
+//ATK DMG CRIT SPD 精准修正 伤害 暴击修正 速度
+weapon: .name "cleric_weapon_0" .atk 0% .dmg 2 5  .crit 1% .spd 3
+weapon: .name "cleric_weapon_1" .atk 0% .dmg 3 7  .crit 2% .spd 3 .upgradeRequirementCode 0
+weapon: .name "cleric_weapon_2" .atk 0% .dmg 4 8  .crit 3% .spd 5 .upgradeRequirementCode 1
+weapon: .name "cleric_weapon_3" .atk 1% .dmg 5 9  .crit 4% .spd 6 .upgradeRequirementCode 2
+weapon: .name "cleric_weapon_4" .atk 5% .dmg 6 10 .crit 5% .spd 7 .upgradeRequirementCode 3
+
+//DEF PROT HP 闪避 防御 血量
+armour: .name "cleric_armour_0" .def 5%  .prot 0 .hp 23 .spd 0
+armour: .name "cleric_armour_1" .def 10% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
+armour: .name "cleric_armour_2" .def 20% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 1
+armour: .name "cleric_armour_3" .def 25% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "cleric_armour_4" .def 30% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 3
+
+//技能
+//移动(后退/前进)
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 1 .launch 4321
+
+//慌乱敲击 
+combat_skill: .id "cleric_panicked_knock" .level 0 .type "melee" .atk 80%  .dmg 0% .crit 5% .launch 21 .target 1 .is_crit_valid True .effect "Weak Stun 1"
+combat_skill: .id "cleric_panicked_knock" .level 1 .type "melee" .atk 85%  .dmg 0% .crit 6% .launch 21 .target 1 .is_crit_valid True .effect "Weak Stun 2" 
+combat_skill: .id "cleric_panicked_knock" .level 2 .type "melee" .atk 90%  .dmg 0% .crit 7% .launch 21 .target 1 .is_crit_valid True .effect "Weak Stun 3" 
+combat_skill: .id "cleric_panicked_knock" .level 3 .type "melee" .atk 95%  .dmg 0% .crit 8% .launch 21 .target 1 .is_crit_valid True .effect "Weak Stun 4" 
+combat_skill: .id "cleric_panicked_knock" .level 4 .type "melee" .atk 100% .dmg 0% .crit 9% .launch 21 .target 1 .is_crit_valid True .effect "Weak Stun 5" 
+
+//神圣之光 
+combat_skill: .id "cleric_holy_light" .level 0 .type "ranged" .atk 90%  .dmg -25% .crit 0% .launch 432 .target 1234 .is_crit_valid True .effect "Unholy Killer 1"
+combat_skill: .id "cleric_holy_light" .level 1 .type "ranged" .atk 95%  .dmg -25% .crit 0% .launch 432 .target 1234 .is_crit_valid True .effect "Unholy Killer 2"
+combat_skill: .id "cleric_holy_light" .level 2 .type "ranged" .atk 100% .dmg -25% .crit 0% .launch 432 .target 1234 .is_crit_valid True .effect "Unholy Killer 3"
+combat_skill: .id "cleric_holy_light" .level 3 .type "ranged" .atk 105% .dmg -25% .crit 0% .launch 432 .target 1234 .is_crit_valid True .effect "Unholy Killer 4"
+combat_skill: .id "cleric_holy_light" .level 4 .type "ranged" .atk 110% .dmg -25% .crit 0% .launch 432 .target 1234 .is_crit_valid True .effect "Unholy Killer 5"
+
+//竭力守护 
+combat_skill: .id "cleric_strived_protection" .level 0 .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Cleric Guard" "Cleric Protect 1" "Cleric Anxiety" .self_target_valid false
+combat_skill: .id "cleric_strived_protection" .level 1 .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Cleric Guard" "Cleric Protect 2" "Cleric Anxiety" .self_target_valid false
+combat_skill: .id "cleric_strived_protection" .level 2 .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Cleric Guard" "Cleric Protect 3" "Cleric Anxiety" .self_target_valid false
+combat_skill: .id "cleric_strived_protection" .level 3 .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Cleric Guard" "Cleric Protect 4" "Cleric Anxiety" .self_target_valid false
+combat_skill: .id "cleric_strived_protection" .level 4 .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Cleric Guard" "Cleric Protect 5" "Cleric Anxiety" .self_target_valid false
+
+//祷告 
+combat_skill: .id "cleric_prayer" .level 0 .type "ranged" .launch 43 .atk 0% .dmg 0% .crit 0% .target @~1234 .effect "Cleric Pray 1" "ClericHealSelfStress 1" .is_stall_invalidating false .generation_guaranteed true
+combat_skill: .id "cleric_prayer" .level 1 .type "ranged" .launch 43 .atk 0% .dmg 0% .crit 0% .target @~1234 .effect "Cleric Pray 2" "ClericHealSelfStress 2" .is_stall_invalidating false
+combat_skill: .id "cleric_prayer" .level 2 .type "ranged" .launch 43 .atk 0% .dmg 0% .crit 0% .target @~1234 .effect "Cleric Pray 3" "ClericHealSelfStress 3" .is_stall_invalidating false
+combat_skill: .id "cleric_prayer" .level 3 .type "ranged" .launch 43 .atk 0% .dmg 0% .crit 0% .target @~1234 .effect "Cleric Pray 4" "ClericHealSelfStress 4" .is_stall_invalidating false
+combat_skill: .id "cleric_prayer" .level 4 .type "ranged" .launch 43 .atk 0% .dmg 0% .crit 0% .target @~1234 .effect "Cleric Pray 5" "ClericHealSelfStress 5" .is_stall_invalidating false
+
+//抚慰波 
+combat_skill: .id "cleric_soothing_wave" .level 0 .heal 1 1 .launch 43 .target @~1234 .effect "Cleric Resistance 1" .is_stall_invalidating false
+combat_skill: .id "cleric_soothing_wave" .level 1 .heal 1 2 .launch 43 .target @~1234 .effect "Cleric Resistance 2" .is_stall_invalidating false
+combat_skill: .id "cleric_soothing_wave" .level 2 .heal 2 3 .launch 43 .target @~1234 .effect "Cleric Resistance 3" .is_stall_invalidating false
+combat_skill: .id "cleric_soothing_wave" .level 3 .heal 3 3 .launch 43 .target @~1234 .effect "Cleric Resistance 4" .is_stall_invalidating false
+combat_skill: .id "cleric_soothing_wave" .level 4 .heal 3 4 .launch 43 .target @~1234 .effect "Cleric Resistance 5" .is_stall_invalidating false
+
+//祝福 
+combat_skill: .id "cleric_blessing" .level 0 .launch 43 .target @~1234 .effect "ClericBless 1" "ClericHealStress 1" .is_stall_invalidating false
+combat_skill: .id "cleric_blessing" .level 1 .launch 43 .target @~1234 .effect "ClericBless 2" "ClericHealStress 2" .is_stall_invalidating false
+combat_skill: .id "cleric_blessing" .level 2 .launch 43 .target @~1234 .effect "ClericBless 3" "ClericHealStress 3" .is_stall_invalidating false
+combat_skill: .id "cleric_blessing" .level 3 .launch 43 .target @~1234 .effect "ClericBless 4" "ClericHealStress 4" .is_stall_invalidating false
+combat_skill: .id "cleric_blessing" .level 4 .launch 43 .target @~1234 .effect "ClericBless 5" "ClericHealStress 5" .is_stall_invalidating false
+
+//退散 
+combat_skill: .id "cleric_disperse" .level 0 .type "ranged" .atk 90%  .dmg -70% .crit 0%   .move 0 1 .launch 43 .target ~234 .is_crit_valid True .effect "Cleric Anxiety" "Cleric Disperse 1"
+combat_skill: .id "cleric_disperse" .level 1 .type "ranged" .atk 95%  .dmg -70% .crit 1%   .move 0 1 .launch 43 .target ~234 .is_crit_valid True .effect "Cleric Anxiety" "Cleric Disperse 2"
+combat_skill: .id "cleric_disperse" .level 2 .type "ranged" .atk 100% .dmg -70% .crit 2%   .move 0 1 .launch 43 .target ~234 .is_crit_valid True .effect "Cleric Anxiety" "Cleric Disperse 3"
+combat_skill: .id "cleric_disperse" .level 3 .type "ranged" .atk 105% .dmg -70% .crit 2.5% .move 0 1 .launch 43 .target ~234 .is_crit_valid True .effect "Cleric Anxiety" "Cleric Disperse 4"
+combat_skill: .id "cleric_disperse" .level 4 .type "ranged" .atk 110% .dmg -70% .crit 3%   .move 0 1 .launch 43 .target ~234 .is_crit_valid True .effect "Cleric Anxiety" "Cleric Disperse 5"
+
+//不知道干什么用...但是light更符合，嘛丑爷狗哥都是light！
+tag: .id "light"
+
+//信仰
+tag: .id "religious"
+
+//角色标签
+tag: .id "cleric"
+
+//建筑加成
+tag: .id "altar_of_light"
+
+//死门
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+
+//建议站位
+controlled: .target_rank 4
+
+//编号
+id_index: .index 322
+
+//技能选择与最大技能数
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+
+//初始战斗与扎营技能，怪癖，刷新权重
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 8 .card_chance 1.0
+
+//不兼容怪癖
+quirk_modifier: .incompatible_class_ids love_interest deviant_tastes

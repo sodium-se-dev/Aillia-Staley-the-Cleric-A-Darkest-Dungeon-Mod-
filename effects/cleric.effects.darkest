@@ -1,0 +1,51 @@
+//¼ÓÑ¹¸ºÃæ
+effect: .name "Cleric Anxiety" .target "performer" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "ClericStress" .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+
+//½ßÁ¦ÊØ»¤
+effect: .name "Cleric Guard"  .target "target" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 2
+
+effect: .name "Cleric Protect 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 20% .protection_rating_add 5%  .duration 3 .on_hit true .on_miss false .queue true 
+effect: .name "Cleric Protect 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 22% .protection_rating_add 6%  .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "Cleric Protect 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 24% .protection_rating_add 7%  .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "Cleric Protect 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 27% .protection_rating_add 9%  .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "Cleric Protect 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 30% .protection_rating_add 10% .duration 3 .on_hit true .on_miss false .queue true
+
+//µ»¸æ
+effect: .name "Cleric Pray 1" .target "target" .curio_result_type "positive" .chance 60% .healstress 5 .on_hit true .on_miss false .queue true
+effect: .name "Cleric Pray 2" .target "target" .curio_result_type "positive" .chance 62% .healstress 6 .on_hit true .on_miss false .queue true
+effect: .name "Cleric Pray 3" .target "target" .curio_result_type "positive" .chance 64% .healstress 7 .on_hit true .on_miss false .queue true
+effect: .name "Cleric Pray 4" .target "target" .curio_result_type "positive" .chance 68% .healstress 8 .on_hit true .on_miss false .queue true
+effect: .name "Cleric Pray 5" .target "target" .curio_result_type "positive" .chance 70% .healstress 9 .on_hit true .on_miss false .queue true
+
+effect: .name "ClericHealSelfStress 1" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "ClericHealSelfStress 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "ClericHealSelfStress 3" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "ClericHealSelfStress 4" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "ClericHealSelfStress 5" .target "performer" .curio_result_type "positive" .chance 100% .healstress 7 .on_hit true .on_miss false .queue true .apply_once true
+
+//¸§Î¿²¨
+effect: .name "Cleric Resistance 1" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 2 .combat_stat_buff 1 .buff_ids "ClericStressResistance 1" "ClericStressRecovery 1"
+effect: .name "Cleric Resistance 2" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 2 .combat_stat_buff 1 .buff_ids "ClericStressResistance 2" "ClericStressRecovery 2"
+effect: .name "Cleric Resistance 3" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 2 .combat_stat_buff 1 .buff_ids "ClericStressResistance 3" "ClericStressRecovery 3"
+effect: .name "Cleric Resistance 4" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 2 .combat_stat_buff 1 .buff_ids "ClericStressResistance 4" "ClericStressRecovery 4"
+effect: .name "Cleric Resistance 5" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 2 .combat_stat_buff 1 .buff_ids "ClericStressResistance 5" "ClericStressRecovery 5"
+
+//×£¸£
+effect: .name "ClericBless 1" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 3 .combat_stat_buff 1 .buff_ids "ClericCrit 1" "ClericACC 1"
+effect: .name "ClericBless 2" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 3 .combat_stat_buff 1 .buff_ids "ClericCrit 2" "ClericACC 2"
+effect: .name "ClericBless 3" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 3 .combat_stat_buff 1 .buff_ids "ClericCrit 3" "ClericACC 3"
+effect: .name "ClericBless 4" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 3 .combat_stat_buff 1 .buff_ids "ClericCrit 4" "ClericACC 4"
+effect: .name "ClericBless 5" .target "target" .curio_result_type "positive" .chance 100% .on_hit true .on_miss false .queue true .duration 3 .combat_stat_buff 1 .buff_ids "ClericCrit 5" "ClericACC 5"
+
+effect: .name "ClericHealStress 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add 1 .healstress 3
+effect: .name "ClericHealStress 2" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add 1 .healstress 3
+effect: .name "ClericHealStress 3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add 1 .healstress 4
+effect: .name "ClericHealStress 4" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add 1 .healstress 4
+effect: .name "ClericHealStress 5" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add 1 .healstress 5
+
+//ÍËÉ¢
+effect: .name "Cleric Disperse 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add -4 .damage_low_multiply -10% .damage_high_multiply -10%
+effect: .name "Cleric Disperse 2" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add -4 .damage_low_multiply -15% .damage_high_multiply -15%
+effect: .name "Cleric Disperse 3" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add -5 .damage_low_multiply -15% .damage_high_multiply -15%
+effect: .name "Cleric Disperse 4" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add -5 .damage_low_multiply -20% .damage_high_multiply -20%
+effect: .name "Cleric Disperse 5" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .on_hit true .on_miss false .queue true .speed_rating_add -6 .damage_low_multiply -25% .damage_high_multiply -25%

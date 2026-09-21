@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="english">
+	</language>
+
+	<language id="schinese">
+		<!-- <介绍> -->
+		<entry id="hero_class_name_cleric"><![CDATA[牧师]]></entry>
+		
+		<entry id="action_verbose_body_guild_cleric"><![CDATA[作为一个稳定团队状态的角色，牧师擅长用自己的信念为大家带来希望，无论是面对伤痛还是骇人之物，她都会第一时间挺身而出。]]></entry>
+		<entry id="action_verbose_body_blacksmith_cleric"><![CDATA[身穿着那件标志性的长袍，牧师在后排稳定着大家的士气，从不离身的长杖熠熠生辉，就像团队里闪耀的灯塔。]]></entry>
+		<entry id="action_verbose_body_camping_trainer_cleric"><![CDATA[好不容易有放松下来的时光，牧师总是喜欢排解他人的苦闷，对她而言，团队轻松健康地凯旋至关重要。]]></entry>
+
+
+		<!-- <技能> -->
+		<entry id="combat_skill_name_cleric_cleric_panicked_knock"><![CDATA[慌乱敲击]]></entry>
+		<entry id="combat_skill_name_cleric_cleric_holy_light"><![CDATA[神圣之光]]></entry>
+		<entry id="combat_skill_name_cleric_cleric_strived_protection"><![CDATA[竭力守护]]></entry>
+		<entry id="combat_skill_name_cleric_cleric_prayer"><![CDATA[祷告]]></entry>
+		<entry id="combat_skill_name_cleric_cleric_soothing_wave"><![CDATA[抚慰波]]></entry>
+		<entry id="combat_skill_name_cleric_cleric_blessing"><![CDATA[祝福]]></entry>
+		<entry id="combat_skill_name_cleric_cleric_disperse"><![CDATA[退散]]></entry>
+		<entry id="combat_skill_name_cleric_move"><![CDATA[移动]]></entry>
+
+		<entry id="upgrade_tree_name_cleric.cleric_panicked_knock"><![CDATA[慌乱敲击]]></entry>
+		<entry id="upgrade_tree_name_cleric.cleric_holy_light"><![CDATA[神圣之光]]></entry>
+		<entry id="upgrade_tree_name_cleric.cleric_strived_protection"><![CDATA[竭力守护]]></entry>
+		<entry id="upgrade_tree_name_cleric.cleric_prayer"><![CDATA[祷告]]></entry>
+		<entry id="upgrade_tree_name_cleric.cleric_soothing_wave"><![CDATA[抚慰波]]></entry>
+		<entry id="upgrade_tree_name_cleric.cleric_blessing"><![CDATA[祝福]]></entry>
+		<entry id="upgrade_tree_name_cleric.cleric_disperse"><![CDATA[退散]]></entry>
+
+		<entry id="camping_skill_name_cleric_listen"><![CDATA[倾听]]></entry>
+		<entry id="camping_skill_name_cleric_repentance"><![CDATA[忏悔]]></entry>
+		<entry id="camping_skill_name_cleric_night_pray"><![CDATA[守夜祷告]]></entry>
+		<entry id="camping_skill_name_cleric_protection"><![CDATA[护佑]]></entry>
+
+		<!-- <装备> -->
+		<entry id="cleric_weapon_0"><![CDATA[陈旧长杖]]></entry>
+		<entry id="cleric_weapon_1"><![CDATA[新制长杖]]></entry>
+		<entry id="cleric_weapon_2"><![CDATA[可靠长杖]]></entry>
+		<entry id="cleric_weapon_3"><![CDATA[光辉长杖]]></entry>
+		<entry id="cleric_weapon_4"><![CDATA[“长夜之光”]]></entry>
+		<entry id="upgrade_tree_name_cleric.weapon"><![CDATA[长杖]]></entry>
+		
+		<entry id="cleric_armour_0"><![CDATA[陈旧长袍]]></entry>
+		<entry id="cleric_armour_1"><![CDATA[新制长袍]]></entry>
+		<entry id="cleric_armour_2"><![CDATA[优良长袍]]></entry>
+		<entry id="cleric_armour_3"><![CDATA[亮丽长袍]]></entry>
+		<entry id="cleric_armour_4"><![CDATA[“坚韧之心”]]></entry>
+		<entry id="upgrade_tree_name_cleric.armour"><![CDATA[长袍]]></entry>
+
+		<!-- <暴击喊话> -->
+		<entry id="cleric+str_critbyhero"><![CDATA[见谅...！]]></entry>
+		<entry id="cleric+str_critbyhero"><![CDATA[请你忏悔！]]></entry>
+		<entry id="cleric+str_critbyhero"><![CDATA[不要放松警惕！]]></entry>
+		<entry id="cleric+str_critbyhero"><![CDATA[一步步来...不要慌张...]]></entry>
+		<entry id="cleric+str_critbyhero"><![CDATA[还不能松懈！]]></entry>
+		<entry id="cleric+str_critbyhero"><![CDATA[我居然...也可以...！]]></entry>
+
+		<!-- <自身所受巨大伤害> -->
+		<entry id="cleric+str_bark_bigwound"><![CDATA[呜...！]]></entry>
+		<entry id="cleric+str_bark_bigwound"><![CDATA[深呼吸...]]></entry>
+		<entry id="cleric+str_bark_bigwound"><![CDATA[我没事的...大家...我没事的...]]></entry>
+
+		<!-- <友军所受巨大伤害> -->
+		<entry id="cleric+str_bark_bigwound_ally"><![CDATA[你还好吗？！]]></entry>
+		<entry id="cleric+str_bark_bigwound_ally"><![CDATA[你会没事的...你会没事的！]]></entry>
+		<entry id="cleric+str_bark_bigwound_ally"><![CDATA[请...请你再撑一会！]]></entry>
+
+		<!-- <自身所受压力伤害> -->
+		<entry id="cleric+str_bark_increasingstress"><![CDATA[我不喜欢这样...]]></entry>
+		<entry id="cleric+str_bark_increasingstress"><![CDATA[好...好可怕...]]></entry>
+		<entry id="cleric+str_bark_increasingstress"><![CDATA[哈啊...我...我不能...]]></entry>
+		<entry id="cleric+str_bark_increasingstress"><![CDATA[如此的恐怖...]]></entry>
+
+		<!-- <手贱> -->
+		<entry id="cleric+str_bark_hobby"><![CDATA[这个...是什么？]]></entry>
+		<entry id="cleric+str_bark_hobby"><![CDATA[好漂亮...]]></entry>
+
+		<!-- <在走廊后退> -->
+		<entry id="cleric+str_bark_backingup"><![CDATA[大家不要慌...]]></entry>
+		<entry id="cleric+str_bark_backingup"><![CDATA[没事的，不用担心。]]></entry>
+
+		<!-- <停止走路> -->
+		<entry id="cleric+str_bark_stopmoving"><![CDATA[大家，要不我们歇一会吧。]]></entry>
+		<entry id="cleric+str_bark_stopmoving"><![CDATA[呼~突然感觉还有点累呢。]]></entry>
+		<entry id="cleric+str_bark_stopmoving"><![CDATA[嗯哼？]]></entry>
+
+		<!-- <开始走路> -->
+		<entry id="cleric+str_bark_startmoving"><![CDATA[大家，圣光会指引我们的。]]></entry>
+		<entry id="cleric+str_bark_startmoving"><![CDATA[走吧~]]></entry>
+		<entry id="cleric+str_bark_startmoving"><![CDATA[愿我们取得胜利。]]></entry>
+
+		<!-- <自身被腐蚀时> -->
+		<entry id="cleric+str_bark_poisondot"><![CDATA[好...好烫！]]></entry>
+		<entry id="cleric+str_bark_poisondot"><![CDATA[我感觉...皮肤烧起来了...]]></entry>
+		<entry id="cleric+str_bark_poisondot"><![CDATA[解毒剂在哪...我找找。]]></entry>
+
+		<!-- <自身流血时> -->
+		<entry id="cleric+str_bark_bleeddot"><![CDATA[绷带...请给我绷带...]]></entry>
+		<entry id="cleric+str_bark_bleeddot"><![CDATA[我流了...好多血...]]></entry>
+		<entry id="cleric+str_bark_bleeddot"><![CDATA[总感觉...身体没有力气了。]]></entry>
+
+		<!-- <亮度为0时> -->
+		<entry id="cleric+str_bark_torch_2"><![CDATA[好黑的说。]]></entry>
+		<entry id="cleric+str_bark_torch_2"><![CDATA[那个...我们还有火把吗？]]></entry>
+		<entry id="cleric+str_bark_torch_2"><![CDATA[小心一点...]]></entry>
+
+		<!-- <亮度稍低时> -->
+		<entry id="cleric+str_bark_torch_1"><![CDATA[看着跳动的火焰，总感觉有点不安...]]></entry>
+		<entry id="cleric+str_bark_torch_1"><![CDATA[或许我们也可以在黑暗中潜行？]]></entry>
+		<entry id="cleric+str_bark_torch_1"><![CDATA[有点看不清楚了呢。]]></entry>
+
+		<!-- <亮度稍高时> -->
+		<entry id="cleric+str_bark_torch_0"><![CDATA[有一点黑...]]></entry>
+		<entry id="cleric+str_bark_torch_0"><![CDATA[光有点暗了呢。]]></entry>
+
+		<!-- <奇物互动产生好结果时> -->
+		<entry id="cleric+str_bark_curiogood"><![CDATA[好运~]]></entry>
+		<entry id="cleric+str_bark_curiogood"><![CDATA[看来有时候也可以冒险点呢。]]></entry>
+		<entry id="cleric+str_bark_curiogood"><![CDATA[挺好的！]]></entry>
+
+		<!-- <奇物互动产生坏结果时> -->
+		<entry id="cleric+str_bark_curiobad"><![CDATA[大家没事就好...]]></entry>
+		<entry id="cleric+str_bark_curiobad"><![CDATA[呃呃...]]></entry>
+		<entry id="cleric+str_bark_curiobad"><![CDATA[有点倒霉呢。]]></entry>
+
+		<!-- <奇物互动产生空结果时> -->
+		<entry id="cleric+str_bark_curiomeh"><![CDATA[嗯...我们走吧。]]></entry>
+		<entry id="cleric+str_bark_curiomeh"><![CDATA[没事，什么都没有。]]></entry>
+		<entry id="cleric+str_bark_curiomeh"><![CDATA[其实这也是一种好事吧。]]></entry>
+
+		<!-- <濒死时> -->
+		<entry id="cleric+str_bark_deathsdoor"><![CDATA[没事的...没事的...]]></entry>
+		<entry id="cleric+str_bark_deathsdoor"><![CDATA[我要撑住...我还不能...]]></entry>
+		<entry id="cleric+str_bark_deathsdoor"><![CDATA[总有种...消逝的感觉...]]></entry>
+		<entry id="cleric+str_bark_deathsdoor"><![CDATA[吸气...呼气...]]></entry>
+
+		<!-- <脱离濒死时> -->
+		<entry id="cleric+str_bark_deathsdoorsurvive"><![CDATA[我...我还没打算放弃！]]></entry>
+		<entry id="cleric+str_bark_deathsdoorsurvive"><![CDATA[呼...好险。]]></entry>
+		<entry id="cleric+str_bark_deathsdoorsurvive"><![CDATA[还好...还好...至少现在我还活着...]]></entry>
+
+		<!-- <友军濒死时> -->
+		<entry id="cleric+str_bark_deathsdoor_ally"><![CDATA[撑住！我...我会救你的！]]></entry>
+		<entry id="cleric+str_bark_deathsdoor_ally"><![CDATA[不要...求求你...]]></entry>
+		<entry id="cleric+str_bark_deathsdoor_ally"><![CDATA[不要害怕...我一定会保护好你！]]></entry>
+
+		<!-- <友军脱离濒死时> -->
+		<entry id="cleric+str_bark_deathsdoorsurvive_ally"><![CDATA[还来得及...！]]></entry>
+		<entry id="cleric+str_bark_deathsdoorsurvive_ally"><![CDATA[呼...]]></entry>
+		<entry id="cleric+str_bark_deathsdoorsurvive_ally"><![CDATA[不怕不怕...至少现在你撑住了...]]></entry>
+
+		<!-- <被大锅困住> -->
+		<entry id="cleric+str_prisoner_damage_cauldron_full"><![CDATA[我要沸腾了！]]></entry>
+		<entry id="cleric+str_prisoner_damage_cauldron_full"><![CDATA[好烫！]]></entry>
+		<entry id="cleric+str_prisoner_damage_cauldron_full"><![CDATA[喘不上气...滚烫的液体...]]></entry>
+		<entry id="cleric+str_prisoner_damage_cauldron_full"><![CDATA[不要...管我...先杀女巫...！]]></entry>
+		<entry id="cleric+str_prisoner_damage_cauldron_full"><![CDATA[烫...像在地狱一样...]]></entry>
+
+		<!-- <塞壬诱惑后> -->
+		<entry id="cleric+str_control_before_turn_siren"><![CDATA[别怕，别怕，他们一会就会离开的。]]></entry>
+		<entry id="cleric+str_control_before_turn_siren"><![CDATA[请离开这里！]]></entry>
+		<entry id="cleric+str_control_before_turn_siren"><![CDATA[别伤害她！]]></entry>
+		<entry id="cleric+str_control_before_turn_siren"><![CDATA[我会保护好你的，放心。]]></entry>
+		<entry id="cleric+str_control_before_turn_siren"><![CDATA[我生在大海，请离开我的家！]]></entry>
+
+		<!-- <被塞壬放回去> -->
+		<entry id="cleric+str_control_return_siren"><![CDATA[等一下！我有点晕头转向了...]]></entry>
+		<entry id="cleric+str_control_return_siren"><![CDATA[我...在哪里？]]></entry>
+		<entry id="cleric+str_control_return_siren"><![CDATA[是潮汐...潮汐的力量...！]]></entry>
+		<entry id="cleric+str_control_return_siren"><![CDATA[我...我不是故意的...抱歉...]]></entry>
+		<entry id="cleric+str_control_return_siren"><![CDATA[我...大家...抱歉...]]></entry>
+
+		<!-- <溺亡抛锚> -->
+		<entry id="cleric+str_prisoner_damage_drowned_anchored"><![CDATA[咳咳...喘不上气...]]></entry>
+		<entry id="cleric+str_prisoner_damage_drowned_anchored"><![CDATA[这些溺者...好像想让我加入他们！]]></entry>
+		<entry id="cleric+str_prisoner_damage_drowned_anchored"><![CDATA[我不会游泳！呜呜...]]></entry>
+		<entry id="cleric+str_prisoner_damage_drowned_anchored"><![CDATA[我不想...我不要！]]></entry>
+		<entry id="cleric+str_prisoner_damage_drowned_anchored"><![CDATA[大家...快上...]]></entry>
+
+		<!-- <死灵法师攻击反应> -->
+		<entry id="cleric+str_monster_attack_unholy_smite"><![CDATA[这...这是带着恨意的灵魂？如此冰凉刺骨...]]></entry>
+		<entry id="cleric+str_monster_attack_unholy_judgement"><![CDATA[这些怨恨...我能听见他们哭嚎惨叫...]]></entry>
+		<entry id="cleric+str_monster_attack_unholy_curse"><![CDATA[我...我不想看见这些...求你了...]]></entry>
+
+		<!-- <OBLITERATE!(猪人王子AOE)> -->
+		<entry id="cleric+str_monster_attack_obliterate_enraged"><![CDATA[它在发狂！是在保护小猪吗？]]></entry>
+		<entry id="cleric+str_monster_attack_obliterate_enraged"><![CDATA[看上去它在保护小猪！]]></entry>
+		<entry id="cleric+str_monster_attack_obliterate_enraged"><![CDATA[不要打小猪了！不然大猪会疯狂攻击的！]]></entry>
+
+		<!-- <土匪火炮> -->
+		<entry id="cleric+str_monster_attack_light_fuse"><![CDATA[小心！它要开火了！]]></entry>
+		<entry id="cleric+str_monster_attack_light_fuse"><![CDATA[趴下！快！]]></entry>
+		<entry id="cleric+str_monster_attack_light_fuse"><![CDATA[准备好——它要开火了！]]></entry>
+
+		<!-- <先知预言> -->
+		<entry id="cleric+str_monster_attack_prophet_mark"><![CDATA[有东西要掉下来了...是巨大的石块？]]></entry>
+		<entry id="cleric+str_monster_attack_prophet_mark"><![CDATA[这里好像要塌了！]]></entry>
+		<entry id="cleric+str_monster_attack_prophet_mark"><![CDATA[我看见了...这个位置会被...！]]></entry>
+		<entry id="cleric+str_monster_attack_prophet_mark"><![CDATA[他的预言...我看到的是如此真实！]]></entry>
+		<entry id="cleric+str_monster_attack_prophet_mark"><![CDATA[快点离开那里！]]></entry>
+		
+		<!-- <被敌方移动> -->
+		<entry id="cleric+str_combat_knockback"><![CDATA[...怎么回事！]]></entry>
+		<entry id="cleric+str_combat_knockback"><![CDATA[...哈啊！]]></entry>
+		<entry id="cleric+str_combat_knockback"><![CDATA[...站不稳脚跟！]]></entry>
+		<entry id="cleric+str_combat_knockback"><![CDATA[没法...保持...平衡！]]></entry>
+		<entry id="cleric+str_combat_knockback"><![CDATA[无法抗拒...！]]></entry>
+		<entry id="cleric+str_combat_knockback"><![CDATA[我不喜欢被这么拽来拽去...]]></entry>
+
+		<!-- <专注> -->
+		<entry id="cleric+str_virtued_focused"><![CDATA[前方的困难并非不可战胜，请相信我。]]></entry>
+		<entry id="cleric+str_virtued_focused"><![CDATA[我来保护大家，大家尽管上吧！]]></entry>
+		<entry id="cleric+str_virtued_focused"><![CDATA[深呼吸...好！]]></entry>
+		<entry id="cleric+str_virtued_focused"><![CDATA[没问题的，现在的我非常认真哦~]]></entry>
+		<entry id="cleric+str_virtued_focused"><![CDATA[我能感觉到一股力量在我体内流动。]]></entry>
+		<entry id="cleric+str_buff_random_party_member_focused"><![CDATA[放轻松，看准前方，无需害怕。]]></entry>
+		<entry id="cleric+str_buff_random_party_member_focused"><![CDATA[嗯，我相信你可以做到。]]></entry>
+		
+		<!-- <无畏> -->
+		<entry id="cleric+str_virtued_courageous"><![CDATA[大家，没什么可怕的。]]></entry>
+		<entry id="cleric+str_virtued_courageous"><![CDATA[尽管疯狂与恐怖触目皆是，但我无所畏惧！]]></entry>
+		<entry id="cleric+str_virtued_courageous"><![CDATA[我相信着我自己！]]></entry>
+		<entry id="cleric+str_virtued_courageous"><![CDATA[这次，我会战胜恐惧！]]></entry>
+		<entry id="cleric+str_virtued_courageous"><![CDATA[我不会退缩的。]]></entry>
+		<entry id="cleric+str_stress_heal_party_courageous"><![CDATA[我们会安然无恙地回去的。]]></entry>
+		<entry id="cleric+str_stress_heal_party_courageous"><![CDATA[我还在呢，大家不要慌张。]]></entry>
+		
+		<!-- <振奋> -->
+		<entry id="cleric+str_virtued_vigorous"><![CDATA[呼...我感觉很好！]]></entry>
+		<entry id="cleric+str_virtued_vigorous"><![CDATA[有一股强大的力量在推着我前进！]]></entry>
+		<entry id="cleric+str_virtued_vigorous"><![CDATA[眼前的这些恐怖也没什么的。]]></entry>
+		<entry id="cleric+str_virtued_vigorous"><![CDATA[只要我尚存一息，我就不会停下。]]></entry>
+		<entry id="cleric+str_virtued_vigorous"><![CDATA[圣光在护佑我，我能感觉到。]]></entry>
+		<entry id="cleric+str_heal_self_vigorous"><![CDATA[嗯，打起精神，明天太阳照常升起。]]></entry>
+		<entry id="cleric+str_heal_self_vigorous"><![CDATA[不要小瞧生命的韧性！]]></entry>
+		
+		<!-- <勇猛> -->
+		<entry id="cleric+str_virtued_powerful"><![CDATA[他们不算什么！对吧！]]></entry>
+		<entry id="cleric+str_virtued_powerful"><![CDATA[我决意守护大家，怎么可能轻言放弃！]]></entry>
+		<entry id="cleric+str_virtued_powerful"><![CDATA[精神起来！]]></entry>
+		<entry id="cleric+str_virtued_powerful"><![CDATA[我们势如破竹！]]></entry>
+		<entry id="cleric+str_virtued_powerful"><![CDATA[大家！我相信前面就是胜利！]]></entry>
+		<entry id="cleric+str_buff_party_powerful"><![CDATA[大家加油！小镇还在等着我们凯旋！]]></entry>
+		<entry id="cleric+str_buff_party_powerful"><![CDATA[让我先祝福一下大家！]]></entry>
+		
+		<!-- <坚定> -->
+		<entry id="cleric+str_virtued_stalwart"><![CDATA[我不会倒下！]]></entry>
+		<entry id="cleric+str_virtued_stalwart"><![CDATA[这还不算什么。]]></entry>
+		<entry id="cleric+str_virtued_stalwart"><![CDATA[面对如此的恐惧，我也不会动摇丝毫。]]></entry>
+		<entry id="cleric+str_virtued_stalwart"><![CDATA[我们可以赶上晚饭的，我保证。]]></entry>
+		<entry id="cleric+str_virtued_stalwart"><![CDATA[放心，我是大家最坚实的后盾。]]></entry>
+		<entry id="cleric+str_stress_heal_stalwart"><![CDATA[放轻松，没必要这么担惊受怕。]]></entry>
+		<entry id="cleric+str_stress_heal_stalwart"><![CDATA[前方的困难不算什么，我这样相信着。]]></entry>
+
+		<!-- <扎营时团队高压> -->
+		<entry id="cleric+str_bark_stress_partyhigh"><![CDATA[刚才有什么冲过去了吗？]]></entry>
+		<entry id="cleric+str_bark_stress_partyhigh"><![CDATA[现在的情况...会没事的，大家。]]></entry>
+		
+		<!-- <扎营时团队低压> -->
+		<entry id="cleric+str_bark_stress_partylow"><![CDATA[看来情况很乐观呢~]]></entry>
+		<entry id="cleric+str_bark_stress_partylow"><![CDATA[没有那么糟糕的，我们会一起回去的。]]></entry>
+		
+		<!-- <扎营时团队低血> -->
+		<entry id="cleric+str_bark_hp_partylow"><![CDATA[我们应该多休整一会...]]></entry>
+		<entry id="cleric+str_bark_hp_partylow"><![CDATA[没事的大家，毕竟还有我在。]]></entry>
+		
+		<!-- <扎营时团队高血> -->
+		<entry id="cleric+str_bark_hp_partyhigh"><![CDATA[呼...再歇一会也可以。]]></entry>
+		<entry id="cleric+str_bark_hp_partyhigh"><![CDATA[至少大家身体还好。]]></entry>
+
+		<!-- <扎营时低血> -->
+		<entry id="cleric+str_bark_hp_selflow"><![CDATA[嗯？没什么，我没事的。]]></entry>
+		<entry id="cleric+str_bark_hp_selflow"><![CDATA[我不会倒下的，还请放心。]]></entry>
+		
+		<!-- <扎营时高血> -->
+		<entry id="cleric+str_bark_hp_selfhigh"><![CDATA[我的身体还很健康。]]></entry>
+		<entry id="cleric+str_bark_hp_selfhigh"><![CDATA[嘿咻！我现在活力满满！]]></entry>
+
+		<!-- <扎营时低压> -->
+		<entry id="cleric+str_bark_stress_selflow"><![CDATA[需要我给大家唱歌吗？]]></entry>
+		<entry id="cleric+str_bark_stress_selflow"><![CDATA[我现在充满信心！]]></entry>
+		
+		<!-- <扎营时高压> -->
+		<entry id="cleric+str_bark_stress_selfhigh"><![CDATA[我...我没事。]]></entry>
+		<entry id="cleric+str_bark_stress_selfhigh"><![CDATA[我还可以应付的过来...不必担心...]]></entry>
+
+		<!-- <扎营时团队状态良好> -->
+		<entry id="cleric+str_bark_party_great_condition"><![CDATA[看来我们会很快回去的，一起。]]></entry>
+		<entry id="cleric+str_bark_party_great_condition"><![CDATA[今天我们被眷顾着~]]></entry>
+		
+		<!-- <扎营时团队状态差> -->
+		<entry id="cleric+str_bark_party_poor_condition"><![CDATA[大家，我们需要速战速决，不然我们会...溃败的。]]></entry>
+		<entry id="cleric+str_bark_party_poor_condition"><![CDATA[其实，保护好自己比任务更重要，不要太勉强了。]]></entry>
+
+		<!-- <扎营时低柴火数量> -->
+		<entry id="cleric+str_bark_firewood_low"><![CDATA[已经没有柴火了...]]></entry>
+		<entry id="cleric+str_bark_firewood_low"><![CDATA[唔...看来远征最好不能持续太久了。]]></entry>
+		
+		<!-- <扎营时低食物数量> -->
+		<entry id="cleric+str_bark_provisions_low"><![CDATA[我的胃已经开始咕咕叫了...呜...]]></entry>
+		<entry id="cleric+str_bark_provisions_low"><![CDATA[我应该多带点食物的...]]></entry>
+		
+		<!-- <扎营时高食物数量> -->
+		<entry id="cleric+str_bark_provisions_high"><![CDATA[食物储备充足，还好吃的够多。]]></entry>
+		<entry id="cleric+str_bark_provisions_high"><![CDATA[至少我们不会饿肚子的。]]></entry>
+		
+		<!-- <扎营时高柴火数量> -->
+		<entry id="cleric+str_bark_firewood_high"><![CDATA[莫名有点期待下一次扎营...]]></entry>
+		<entry id="cleric+str_bark_firewood_high"><![CDATA[之后的旅途应该不会太艰难。]]></entry>
+
+		<!-- <扎营随机语录> -->
+		<entry id="cleric+str_bark_companionship"><![CDATA[唉呀，不要这么沉默呀。]]></entry>
+		<entry id="cleric+str_bark_companionship"><![CDATA[在这里，真是新鲜的体验，和你们一起相处很开心。]]></entry>
+		<entry id="cleric+str_bark_companionship"><![CDATA[我想吃小镇的好吃的了...]]></entry>
+		<entry id="cleric+str_bark_companionship"><![CDATA[这种邪恶不算什么的，毕竟还有我在嘛。]]></entry>
+		<entry id="cleric+str_bark_companionship"><![CDATA[抱歉...我有点困了...]]></entry>
+
+		<!-- <心力衰竭> -->
+		<entry id="cleric+str_heart_attack_fearful"><![CDATA[不...对不起...请原谅我...]]></entry>
+		<entry id="cleric+str_heart_attack_paranoid"><![CDATA[不要...不要再折磨我了...]]></entry>
+		<entry id="cleric+str_heart_attack_masochistic"><![CDATA[我受不了了...对不起...]]></entry>
+		<entry id="cleric+str_heart_attack_abusive"><![CDATA[没有我...你们该怎么办...]]></entry>
+		<entry id="cleric+str_heart_attack_selfish"><![CDATA[早知道...我就不应该...]]></entry>
+		<entry id="cleric+str_heart_attack_depressed"><![CDATA[我...保护不好...大家...]]></entry>
+		<entry id="cleric+str_heart_attack_irrational"><![CDATA[神圣的地方...我来了...]]></entry>
+
+		<!-- <进入酒馆时> -->
+		<entry id="cleric+str_bar_committed"><![CDATA[打扰了...]]></entry>
+		<entry id="cleric+str_bar_committed"><![CDATA[好累呀...]]></entry>
+
+		<!-- <进入赌场时> -->
+		<entry id="cleric+str_gambling_committed"><![CDATA[我也试试...]]></entry>
+
+		<!-- <进入妓院时> -->
+		<entry id="cleric+str_brothel_committed"><![CDATA[一...一定要这样吗？]]></entry>
+		<entry id="cleric+str_brothel_committed"><![CDATA[我..我不知道...]]></entry>
+		<entry id="cleric+str_brothel_committed"><![CDATA[等一下...？]]></entry>
+
+		<!-- <进入回廊时> -->
+		<entry id="cleric+str_meditation_committed"><![CDATA[静坐...]]></entry>
+		<entry id="cleric+str_meditation_committed"><![CDATA[静下来了...]]></entry>
+
+		<!-- <进入耳堂时> -->
+		<entry id="cleric+str_prayer_committed"><![CDATA[呼...圣光啊...]]></entry>
+		<entry id="cleric+str_prayer_committed"><![CDATA[嘿咻...]]></entry>
+
+		<!-- <进入苦修厅时> -->
+		<entry id="cleric+str_flagellation_committed"><![CDATA[我...我准备好赎罪了！]]></entry>
+
+		<!-- <进入病房时> -->
+		<entry id="cleric+str_disease_treatment_committed"><![CDATA[好...好大的水蛭！]]></entry>
+		<entry id="cleric+str_disease_treatment_committed"><![CDATA[请...请你先洗个手...]]></entry>
+		<entry id="cleric+str_disease_treatment_committed"><![CDATA[呃...我相信你。]]></entry>
+		<entry id="cleric+str_treatment_committed"><![CDATA[那个，打扰了...]]></entry>
+		<entry id="cleric+str_treatment_committed"><![CDATA[我想成为一个更好的人。]]></entry>
+		<entry id="cleric+str_treatment_committed"><![CDATA[那些仪器是干什么的？]]></entry>
+
+		<!-- <仅能进入酒馆而尝试进入其他区域时> -->
+		<entry id="cleric+str_alcoholism_gambling_rejection"><![CDATA[我想去酒馆看看...]]></entry>
+		<entry id="cleric+str_alcoholism_brothel_rejection"><![CDATA[抱歉，但是真的不行。]]></entry>
+		<entry id="cleric+str_alcoholism_meditation_rejection"><![CDATA[我想去喝点酒...抱歉。]]></entry>
+		<entry id="cleric+str_alcoholism_prayer_rejection"><![CDATA[抱歉...但是我脑袋里全是杯子相碰的声音。]]></entry>
+		<entry id="cleric+str_alcoholism_flagellation_rejection"><![CDATA[比起这个...我更想承受点酒精。]]></entry>
+
+		<!-- <仅能进入赌场而尝试进入其他区域时> -->
+		<entry id="cleric+str_gambler_bar_rejection"><![CDATA[纸牌和骰子...不知道为什么有点上瘾？]]></entry>
+		<entry id="cleric+str_gambler_brothel_rejection"><![CDATA[呃...要不你带我去赌场看看？只是好奇...]]></entry>
+		<entry id="cleric+str_gambler_meditation_rejection"><![CDATA[抱歉...但是我有点好奇...]]></entry>
+		<entry id="cleric+str_gambler_prayer_rejection"><![CDATA[抱歉...我脑袋里全是骰子的声音...]]></entry>
+		<entry id="cleric+str_gambler_flagellation_rejection"><![CDATA[......不了谢谢。]]></entry>
+
+		<!-- <仅能进入回廊而尝试进入其他区域时> -->
+		<entry id="cleric+str_enlightened_bar_rejection"><![CDATA[我想要自己安静一会，谢谢。]]></entry>
+		<entry id="cleric+str_enlightened_gambling_rejection"><![CDATA[让我找个地方自己静静，谢谢。]]></entry>
+		<entry id="cleric+str_enlightened_brothel_rejection"><![CDATA[不要！...谢谢。]]></entry>
+		<entry id="cleric+str_enlightened_prayer_rejection"><![CDATA[我现在更想放空，谢谢。]]></entry>
+		<entry id="cleric+str_enlightened_flagellation_rejection"><![CDATA[不，我还是希望自己想一会，谢谢。]]></entry>
+
+		<!-- <仅能进入耳堂而尝试进入其他区域时> -->
+		<entry id="cleric+str_god_fearing_bar_rejection"><![CDATA[我想和圣光交谈，谢谢。]]></entry>
+		<entry id="cleric+str_god_fearing_gambling_rejection"><![CDATA[我想向圣光祷告，谢谢。]]></entry>
+		<entry id="cleric+str_god_fearing_brothel_rejection"><![CDATA[可以让我去和圣光交流吗？谢谢。]]></entry>
+		<entry id="cleric+str_god_fearing_meditation_rejection"><![CDATA[我只想向圣光祷告，谢谢。]]></entry>
+		<entry id="cleric+str_god_fearing_flagellation_rejection"><![CDATA[让我与圣光交谈吧，谢谢。]]></entry>
+
+		<!-- <仅能进入苦修厅而尝试进入其他区域时> -->
+		<entry id="cleric+str_flagellant_gambling_rejection"><![CDATA[请让我赎罪...我的罪过是如此难以饶恕...]]></entry>
+		<entry id="cleric+str_flagellant_bar_rejection"><![CDATA[请让我赎罪...我的罪过是如此难以饶恕...]]></entry>
+		<entry id="cleric+str_flagellant_meditation_rejection"><![CDATA[请让我赎罪...我的罪过是如此难以饶恕...]]></entry>
+		<entry id="cleric+str_flagellant_prayer_rejection"><![CDATA[请让我赎罪...我的罪过是如此难以饶恕...]]></entry>
+		<entry id="cleric+str_flagellant_brothel_rejection"><![CDATA[请让我赎罪...我的罪过是如此难以饶恕...]]></entry>
+
+		<!-- <拒绝进入> -->
+		<entry id="cleric+str_resolution_bar_rejection"><![CDATA[我不想再感受那种感觉了。]]></entry>
+		<entry id="cleric+str_resolution_bar_rejection"><![CDATA[不了，谢谢，带我去别的地方吧。]]></entry>
+		
+		<entry id="cleric+str_known_cheat_gambling_rejection"><![CDATA[我还是...不去那里比较好。]]></entry>
+		<entry id="cleric+str_known_cheat_gambling_rejection"><![CDATA[...不了，谢谢。我只是...被蒙蔽了双眼。]]></entry>
+		
+		<entry id="cleric+str_unquiet_mind_meditation_rejection"><![CDATA[我...我静不下来...对不起...]]></entry>
+		<entry id="cleric+str_unquiet_mind_meditation_rejection"><![CDATA[我没法静心坐着...不知道为什么。]]></entry>
+		
+		<entry id="cleric+str_witness_prayer_rejection"><![CDATA[怎么可能...]]></entry>
+		<entry id="cleric+str_witness_prayer_rejection"><![CDATA[不...我还是没法接受...]]></entry>
+		
+		<entry id="cleric+str_faithless_prayer_rejection"><![CDATA[神不存在，所以我再不会去那了。]]></entry>
+		<entry id="cleric+str_faithless_prayer_rejection"><![CDATA[我不再依托圣光了，所以，不必了，谢谢。]]></entry>
+		<entry id="cleric+str_faithless_flagellation_rejection"><![CDATA[不了，身体是最重要的。]]></entry>
+		<entry id="cleric+str_faithless_flagellation_rejection"><![CDATA[伤害自己来讨好那些虚无的存在...？不了，谢谢。]]></entry>
+
+		<!-- <马车> -->
+		<entry id="cleric+str_stagecoach_idle"><![CDATA[这里真冷清啊...]]></entry>
+		<entry id="cleric+str_stagecoach_idle"><![CDATA[我想我准备好了，会有怎么样的考验在等着我呢？]]></entry>
+
+		<entry id="cleric+str_stagecoach_roster_full_rejection"><![CDATA[营房...好像没有我的位置了。]]></entry>
+
+		<!-- <在英雄列表中 低压力时> -->
+		<entry id="cleric+str_roster_list_low_stress_bark"><![CDATA[我准备好了。]]></entry>
+		<entry id="cleric+str_roster_list_low_stress_bark"><![CDATA[今天吃什么呢~]]></entry>
+		<entry id="cleric+str_roster_list_low_stress_bark"><![CDATA[如果需要我的话，我随时在。]]></entry>
+
+		<!-- <在英雄列表中 中压力时> -->
+		<entry id="cleric+str_roster_list_medium_stress_bark"><![CDATA[如果需要我的话，我随时在...]]></entry>
+		<entry id="cleric+str_roster_list_medium_stress_bark"><![CDATA[呼...我没事的，真的。]]></entry>
+		<entry id="cleric+str_roster_list_medium_stress_bark"><![CDATA[我想我还能应付的过来。]]></entry>
+
+		<!-- <在英雄列表中 高压力时> -->
+		<entry id="cleric+str_roster_list_high_stress_bark"><![CDATA[我...我得再准备一会...]]></entry>
+		<entry id="cleric+str_roster_list_high_stress_bark"><![CDATA[我...我没法忘掉...]]></entry>
+		<entry id="cleric+str_roster_list_high_stress_bark"><![CDATA[让我休息...休息一下...]]></entry>
+		
+		<!-- <拒绝任务（仅可在编入队伍时生效，在队伍里面还是原来的）> -->
+		<entry id="cleric+str_quest_too_hard"><![CDATA[我还没准备好，抱歉。]]></entry>
+		<entry id="cleric+str_quest_too_hard"><![CDATA[太难了...我现在还不能...]]></entry>
+		<entry id="cleric+str_quest_too_hard"><![CDATA[我不行，抱歉。]]></entry>
+		<entry id="cleric+str_quest_too_easy"><![CDATA[抱歉，但是更艰巨的任务需要我。]]></entry>
+		<entry id="cleric+str_quest_too_easy"><![CDATA[我还有更重要的使命，抱歉。]]></entry>
+		<entry id="cleric+str_quest_too_easy"><![CDATA[请允许我拒绝，我想...挑战一下自己。]]></entry>
+
+		<!-- <被老祖点名时> -->
+		<entry id="cleric+str_monster_user_selected_targets_kill_pill"><![CDATA[如果这就是...我准备好了！]]></entry>
+		<entry id="cleric+str_monster_user_selected_targets_kill_pill"><![CDATA[呼...深呼吸...]]></entry>
+
+		<!-- <拒绝再次进入极暗地牢> -->
+		<entry id="cleric+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[我...我一直在做恶梦...关于那里...]]></entry>
+		<entry id="cleric+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[对不起...但是...这种恐怖...]]></entry>
+		<entry id="cleric+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[我...这真的是我想要的吗...]]></entry>
+		<entry id="cleric+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[呜...不要...]]></entry>
+
+		<!-- <自身在酒馆中时在英雄列表中的喊话> -->
+		<entry id="cleric+str_roster_list_bar_bark"><![CDATA[不了不了，我喝点果汁...]]></entry>
+		<entry id="cleric+str_roster_list_bar_bark"><![CDATA[就一小口...]]></entry>
+		
+		<!-- <自身在赌场中时在英雄列表中的喊话> -->
+		<entry id="cleric+str_roster_list_gambling_bark"><![CDATA[居然赢了...欸嘿。]]></entry>
+		<entry id="cleric+str_roster_list_gambling_bark"><![CDATA[输了呢...]]></entry>
+		
+		<!-- <自身在妓院中时在英雄列表中的喊话> -->
+		<entry id="cleric+str_roster_list_brothel_bark"><![CDATA[这...这样真的可以吗？]]></entry>
+		<entry id="cleric+str_roster_list_brothel_bark"><![CDATA[抱歉...果然不行...]]></entry>
+		
+		<!-- <自身在回廊中时在英雄列表中的喊话> -->
+		<entry id="cleric+str_roster_list_meditation_bark"><![CDATA[放空...]]></entry>
+		<entry id="cleric+str_roster_list_meditation_bark"><![CDATA[这种感觉真好...]]></entry>
+		
+		<!-- <自身在耳堂中时在英雄列表中的喊话> -->
+		<entry id="cleric+str_roster_list_prayer_bark"><![CDATA[呼啊...]]></entry>
+		<entry id="cleric+str_roster_list_prayer_bark"><![CDATA[平静...]]></entry>
+		
+		<!-- <自身在苦修厅中时在英雄列表中的喊话> -->
+		<entry id="cleric+str_roster_list_flagellation_bark"><![CDATA[呜呜...]]></entry>
+		
+		<!-- <自身在治疗室中时在英雄列表中的喊话> -->
+		<entry id="cleric+str_roster_list_treatment_bark"><![CDATA[好奇怪...]]></entry>
+		<entry id="cleric+str_roster_list_treatment_bark"><![CDATA[身体感觉怪怪的。]]></entry>
+		
+		<!-- <自身在病房中时在英雄列表中的喊话> -->
+		<entry id="cleric+str_roster_list_disease_treatment_bark"><![CDATA[要不...我还是自己来吧？]]></entry>
+		<entry id="cleric+str_roster_list_disease_treatment_bark"><![CDATA[嗯？哦，没什么，只是不太习惯...]]></entry>
+
+		<!-- <以下待修改！> -->  
+		
+		<!-- <扎营技能> -->
+		<entry id="placeholder+str_bark_encourage"><![CDATA[肩膀放松，尝试深呼吸...嗯，这样可以稍微放松一点。]]></entry>
+		<entry id="placeholder+str_bark_encourage"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_encourage"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_first_aid"><![CDATA[你需要好好休息，我帮你简单处理一下伤势。]]></entry>
+		<entry id="placeholder+str_bark_first_aid"><![CDATA[别乱动，不然伤口又会烂的。]]></entry>
+		<entry id="placeholder+str_bark_first_aid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_pep_talk"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_pep_talk"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_pep_talk"><![CDATA[没关系的，就算生活常有不如意，也会有好运相伴的。]]></entry>
+		
+		<entry id="str_bark_cleric_listen"><![CDATA[没关系的，说出来会舒服一点吧。]]></entry>
+		<entry id="str_bark_cleric_listen"><![CDATA[不要把烦心事憋在心里，偶尔发泄一下也没事的。]]></entry>
+		<entry id="str_bark_cleric_listen"><![CDATA[嗯，我在听。说出来好受一点了吗？]]></entry>
+		<entry id="str_bark_cleric_repentance"><![CDATA[]]></entry>
+		<entry id="str_bark_cleric_repentance"><![CDATA[]]></entry>
+		<entry id="str_bark_cleric_repentance"><![CDATA[]]></entry>
+		<entry id="str_bark_cleric_night_pray"><![CDATA[]]></entry>
+		<entry id="str_bark_cleric_night_pray"><![CDATA[]]></entry>
+		<entry id="str_bark_cleric_night_pray"><![CDATA[]]></entry>
+		<entry id="str_bark_cleric_protection"><![CDATA[]]></entry>
+		<entry id="str_bark_cleric_protection"><![CDATA[]]></entry>
+		<entry id="str_bark_cleric_protection"><![CDATA[]]></entry>
+
+		<!-- <恐惧> -->
+		<entry id="cleric+str_afflicted_fearful"><![CDATA[脚...不听使唤了...]]></entry>
+		<entry id="cleric+str_afflicted_fearful"><![CDATA[这...我...我没事...]]></entry>
+		<entry id="cleric+str_afflicted_fearful"><![CDATA[没事的没事的没事的没事的...]]></entry>
+		<entry id="cleric+str_afflicted_fearful"><![CDATA[吸...吸气...没什么的，没什么的...]]></entry>
+		<entry id="cleric+str_afflicted_fearful"><![CDATA[再撑一会...再撑一会就好。]]></entry>
+		<!-- <压力队友> -->
+		<entry id="cleric+str_bark_stress_fearful"><![CDATA[我...我没法...我不慌...我不慌...]]></entry>
+		<entry id="cleric+str_bark_stress_fearful"><![CDATA[不...不要慌张...深呼吸...]]></entry>
+		<entry id="cleric+str_bark_stress_fearful"><![CDATA[难道我们会...不，不能这么想！]]></entry>
+		<!-- <乱动> -->
+		<entry id="placeholder+str_change_pos_back_fearful"><![CDATA[只是...只是调整状态！]]></entry>
+		<entry id="placeholder+str_change_pos_back_fearful"><![CDATA[嗯...那个...后面比较危险！对...]]></entry>
+		<entry id="placeholder+str_change_pos_back_fearful"><![CDATA[]]></entry>
+		<!-- <跳过回合> -->
+		<entry id="placeholder+str_ignore_command_fearful"><![CDATA[毫无准备的行动会害死大家的...]]></entry>
+		<entry id="placeholder+str_ignore_command_fearful"><![CDATA[我只是...请给我点时间！]]></entry>
+		<entry id="placeholder+str_ignore_command_fearful"><![CDATA[]]></entry>
+		<!-- <自主撤退> -->
+		<entry id="placeholder+str_retreat_from_combat_fearful"><![CDATA[不行！大家快跑！]]></entry>
+		<entry id="placeholder+str_retreat_from_combat_fearful"><![CDATA[我们没法战胜他们！趁我们还没被击溃！]]></entry>
+		<!-- <挨打> -->
+		<entry id="placeholder+str_comment_self_hit_fearful"><![CDATA[镇静...小伤而已...我不怕...]]></entry>
+		<entry id="placeholder+str_comment_self_hit_fearful"><![CDATA[好痛...他们的攻势太猛烈了！]]></entry>
+		<!-- <闪避攻击> -->
+		<entry id="placeholder+str_comment_self_missed_fearful"><![CDATA[咿呀！刚才那一下...好险，真的好险...]]></entry>
+		<entry id="placeholder+str_comment_self_missed_fearful"><![CDATA[]]></entry>
+		<!-- <队友未命中> -->
+		<entry id="placeholder+str_comment_ally_attack_missed_fearful"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_ally_attack_missed_fearful"><![CDATA[]]></entry>
+		<!-- <队友挨打> -->
+		<entry id="placeholder+str_comment_ally_hit_fearful"><![CDATA[你...你还好吗？没什么的对吧？！]]></entry>
+		<entry id="placeholder+str_comment_ally_hit_fearful"><![CDATA[]]></entry>
+		<!-- <队友闪避> -->
+		<entry id="placeholder+str_comment_ally_missed_fearful"><![CDATA[太好了太好了太好了...]]></entry>
+		<entry id="placeholder+str_comment_ally_missed_fearful"><![CDATA[]]></entry>
+		<!-- <拒绝换位> -->
+		<entry id="placeholder+str_block_move_fearful"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_move_fearful"><![CDATA[]]></entry>
+		<!-- <探索时走动> -->
+		<entry id="placeholder+str_comment_move_fearful"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_move_fearful"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_move_fearful"><![CDATA[]]></entry>
+		<!-- <队友与奇物互动> -->
+		<entry id="placeholder+str_comment_curio_interaction_fearful"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_curio_interaction_fearful"><![CDATA[]]></entry>
+		<!-- <与奇物互动> -->
+		<entry id="placeholder+trigger_curio_affliction_fearful"><![CDATA[]]></entry>
+		<!-- <在英雄列表的喊话> -->
+		<entry id="placeholder+str_roster_list_fearful_bark"><![CDATA[]]></entry>
+		<entry id="placeholder+str_roster_list_fearful_bark"><![CDATA[]]></entry>
+		<entry id="placeholder+str_roster_list_fearful_bark"><![CDATA[]]></entry>
+		<!-- <扎营上压力> -->
+		<entry id="placeholder+str_bark_stress_camp_fearful"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_fearful"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_fearful"><![CDATA[]]></entry>
+		<!-- <拒绝使用扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_performer_fearful"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_fearful"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_fearful"><![CDATA[]]></entry>
+
+		<!-- <偏执> -->
+		<entry id="cleric+str_afflicted_paranoid"><![CDATA[要怎么做你们才能相信我...]]></entry>
+		<entry id="cleric+str_afflicted_paranoid"><![CDATA[难道我一定要展示一下神迹吗...]]></entry>
+		<entry id="cleric+str_afflicted_paranoid"><![CDATA[刚刚有谁在说话吗？]]></entry>
+		<entry id="cleric+str_afflicted_paranoid"><![CDATA[圣光是唯一的救赎...！]]></entry>
+		<entry id="cleric+str_afflicted_paranoid"><![CDATA[我愿意相信你们不会背叛我...但是我做不到...]]></entry>
+		<!-- <压力队友> -->
+		<entry id="placeholder+str_bark_stress_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_stress_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_stress_paranoid"><![CDATA[]]></entry>
+		<!-- <乱动> -->
+		<entry id="placeholder+str_change_pos_back_paranoid"><![CDATA[我知道他们会从后方偷袭，而我不会让他们得逞！]]></entry>
+		<entry id="placeholder+str_change_pos_back_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_change_pos_back_paranoid"><![CDATA[]]></entry>
+		<!-- <跳过回合> -->
+		<entry id="placeholder+str_ignore_command_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_ignore_command_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_ignore_command_paranoid"><![CDATA[]]></entry>
+		<!-- <乱放技能> -->
+		<entry id="cleric+str_random_command_paranoid"><![CDATA[我们要做的就是出其不意！]]></entry>
+		<entry id="cleric+str_random_command_paranoid"><![CDATA[他们知道我们的策略！但是如果我这样...！]]></entry>
+		<entry id="placeholder+str_random_command_paranoid"><![CDATA[]]></entry>
+		<!-- <自主撤退> -->
+		<entry id="placeholder+str_retreat_from_combat_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_retreat_from_combat_paranoid"><![CDATA[]]></entry>
+		<!-- <伤害队友> -->
+		<entry id="placeholder+str_attack_friendly_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_attack_friendly_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_attack_friendly_paranoid"><![CDATA[]]></entry>
+		<!-- <拒绝撤退> -->
+		<entry id="placeholder+str_block_combat_retreat_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_combat_retreat_paranoid"><![CDATA[]]></entry>
+		<!-- <挨打> -->
+		<entry id="cleric+str_comment_self_hit_paranoid"><![CDATA[他好像知道我的想法！]]></entry>
+		<entry id="cleric+str_comment_self_hit_paranoid"><![CDATA[被预料到了...我的想法！]]></entry>
+		<!-- <闪避攻击> -->
+		<entry id="placeholder+str_comment_self_missed_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_self_missed_paranoid"><![CDATA[]]></entry>
+		<!-- <队友未命中> -->
+		<entry id="placeholder+str_comment_ally_attack_missed_paranoid"><![CDATA[那个...你应该不是故意的吧？]]></entry>
+		<entry id="placeholder+str_comment_ally_attack_missed_paranoid"><![CDATA[]]></entry>
+		<!-- <队友挨打> -->
+		<entry id="cleric+str_comment_ally_hit_paranoid"><![CDATA[他貌似知道我们的弱点！]]></entry>
+		<entry id="cleric+str_comment_ally_hit_paranoid"><![CDATA[他果然知道我们的计谋！]]></entry>
+		<!-- <队友闪避> -->
+		<entry id="cleric+str_comment_ally_missed_paranoid"><![CDATA[等一下...你们应该不是在演戏吧？]]></entry>
+		<entry id="placeholder+str_comment_ally_missed_paranoid"><![CDATA[]]></entry>
+		<!-- <拒绝换位> -->
+		<entry id="cleric+str_block_move_paranoid"><![CDATA[不行！这样会正中他们下怀！]]></entry>
+		<entry id="cleric+str_block_move_paranoid"><![CDATA[他早就知道我们会这么做！我们需要出其不意！]]></entry>
+		<!-- <拒绝道具> -->
+		<entry id="placeholder+str_block_item_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_item_paranoid"><![CDATA[]]></entry>
+		<!-- <探索时走动> -->
+		<entry id="placeholder+str_comment_move_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_move_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_move_paranoid"><![CDATA[]]></entry>
+		<!-- <拒绝治疗> -->
+		<entry id="placeholder+str_block_heal_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_heal_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_heal_paranoid"><![CDATA[]]></entry>
+		<!-- <拒绝增益> -->
+		<entry id="placeholder+str_block_buff_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_buff_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_buff_paranoid"><![CDATA[]]></entry>
+		<!-- <与奇物互动> -->
+		<entry id="placeholder+trigger_curio_affliction_paranoid"><![CDATA[]]></entry>
+		<!-- <在英雄列表的喊话> -->
+		<entry id="placeholder+str_roster_list_paranoid_bark"><![CDATA[]]></entry>
+		<entry id="placeholder+str_roster_list_paranoid_bark"><![CDATA[]]></entry>
+		<entry id="placeholder+str_roster_list_paranoid_bark"><![CDATA[]]></entry>
+		<!-- <扎营上压力> -->
+		<entry id="placeholder+str_bark_stress_camp_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_paranoid"><![CDATA[]]></entry>
+		<!-- <拒绝使用扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_performer_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_paranoid"><![CDATA[]]></entry>
+		<!-- <拒绝接受扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_target_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_camping_skill_target_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_camping_skill_target_paranoid"><![CDATA[]]></entry>
+		<!-- <扎营绝食> -->
+		<entry id="placeholder+str_block_camping_meal_paranoid"><![CDATA[]]></entry>
+		<entry id="placeholder+str_block_camping_meal_paranoid"><![CDATA[]]></entry>
+
+		<!-- <暴虐> -->
+		<entry id="cleric+str_afflicted_abusive"><![CDATA[我会保护好你们，所以你们不要乱跑！]]></entry>
+		<entry id="cleric+str_afflicted_abusive"><![CDATA[不要擅自移动，谢谢。]]></entry>
+		<entry id="cleric+str_afflicted_abusive"><![CDATA[我知道你们做不到的，这就是为什么我要保护好你们。]]></entry>
+		<entry id="cleric+str_afflicted_abusive"><![CDATA[尽早结束回去吧，我没有信心在这么危险的地方带孩子。]]></entry>
+		<entry id="cleric+str_afflicted_abusive"><![CDATA[你们也稍微努力一下啊！]]></entry>
+		<!-- <压力队友> -->
+		<entry id="placeholder+str_bark_stress_abusive"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_stress_abusive"><![CDATA[]]></entry>
+		<entry id="placeholder+str_bark_stress_abusive"><![CDATA[]]></entry>
+		<!-- <乱放技能> -->
+		<entry id="placeholder+str_random_command_abusive"><![CDATA[]]></entry>
+		<entry id="placeholder+str_random_command_abusive"><![CDATA[]]></entry>
+		<entry id="placeholder+str_random_command_abusive"><![CDATA[]]></entry>
+		<!-- <伤害队友> -->
+		<entry id="placeholder+str_attack_friendly_abusive"><![CDATA[]]></entry>
+		<entry id="placeholder+str_attack_friendly_abusive"><![CDATA[]]></entry>
+		<entry id="placeholder+str_attack_friendly_abusive"><![CDATA[]]></entry>
+		<!-- <队友命中> -->
+		<entry id="placeholder+str_comment_ally_attack_hit_abusive"><![CDATA[]]></entry>
+		<entry id="cleric+str_comment_ally_attack_hit_abusive"><![CDATA[下次别这样了，万一打空了怎么办！]]></entry>
+		<!-- <队友未命中> -->
+		<entry id="cleric+str_comment_ally_attack_missed_abusive"><![CDATA[我都说了不要轻举妄动！]]></entry>
+		<entry id="placeholder+str_comment_ally_attack_missed_abusive"><![CDATA[]]></entry>
+		<!-- <队友挨打> -->
+		<entry id="placeholder+str_comment_ally_hit_abusive"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_ally_hit_abusive"><![CDATA[]]></entry>
+		<!-- <拒绝换位> -->
+		<entry id="cleric+str_block_move_abusive"><![CDATA[我说了多少遍你会受伤的？]]></entry>
+		<entry id="cleric+str_block_move_abusive"><![CDATA[站好你的位置等我的指令！]]></entry>
+		<!-- <探索时走动> -->
+		<entry id="placeholder+str_comment_move_abusive"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_move_abusive"><![CDATA[]]></entry>
+		<entry id="placeholder+str_comment_move_abusive"><![CDATA[]]></entry>
+		<!-- <与奇物互动> -->
+		<entry id="placeholder+trigger_curio_affliction_abusive"><![CDATA[你们这些只知道哭的蠢货，让我来。]]></entry>
+		<!-- <在英雄列表的喊话> -->
+		<entry id="placeholder+str_roster_list_abusive_bark"><![CDATA[为什么我是这里惟一的英雄？全是无知的蠢货！]]></entry>
+		<entry id="placeholder+str_roster_list_abusive_bark"><![CDATA[要是你们其余人不用尽全力，我就叫你们滚。]]></entry>
+		<entry id="placeholder+str_roster_list_abusive_bark"><![CDATA[咩咩叫的羊羔——说的就是你们！]]></entry>
+		<!-- <扎营上压力> -->
+		<entry id="placeholder+str_bark_stress_camp_abusive"><![CDATA[你们这些叽叽喳喳的八婆们！都他娘的给我闭嘴！]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_abusive"><![CDATA[乖乖闭嘴。不然，我会让你闭嘴的。]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_abusive"><![CDATA[你这傻笑的山炮。你的废话会把我们带向死亡的！]]></entry>
+		<!-- <拒绝使用扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_performer_abusive"><![CDATA[滚开。]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_abusive"><![CDATA[（呻吟）……你让我感到厌倦了。]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_abusive"><![CDATA[懦夫！管好你自己！]]></entry>
+		<!-- <拒绝接受扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_target_abusive"><![CDATA[又是你，还有你那巫术！]]></entry>
+		<entry id="placeholder+str_block_camping_skill_target_abusive"><![CDATA[你要是觉得我会需要你，那你就大错特错了。]]></entry>
+		<entry id="placeholder+str_block_camping_skill_target_abusive"><![CDATA[你不配帮我。]]></entry>
+
+		<!-- <自私> -->
+		<entry id="cleric+str_afflicted_selfish"><![CDATA[我一直保护你们...但我不想再这样了！]]></entry>
+		<entry id="cleric+str_afflicted_selfish"><![CDATA[可以让我休息一会吗？]]></entry>
+		<entry id="cleric+str_afflicted_selfish"><![CDATA[我累了，抱歉。]]></entry>
+		<entry id="cleric+str_afflicted_selfish"><![CDATA[唉...这么无私真的好吗？]]></entry>
+		<entry id="cleric+str_afflicted_selfish"><![CDATA[我也是人类...不是吗？]]></entry>
+		<!-- <压力队友> -->
+		<entry id="placeholder+str_bark_stress_selfish"><![CDATA[那个是我的。]]></entry>
+		<entry id="placeholder+str_bark_stress_selfish"><![CDATA[以正义之名，这些灵魂属于我。]]></entry>
+		<entry id="placeholder+str_bark_stress_selfish"><![CDATA[以正义之名，这些灵魂属于我。]]></entry>
+		<!-- <乱动> -->
+		<entry id="placeholder+str_change_pos_fwd_selfish"><![CDATA[别挡我的路！]]></entry>
+		<entry id="placeholder+str_change_pos_fwd_selfish"><![CDATA[那是我的人头。]]></entry>
+		<entry id="placeholder+str_change_pos_fwd_selfish"><![CDATA[闪开！你挡住我了！]]></entry>
+		<entry id="placeholder+str_change_pos_back_selfish"><![CDATA[牺牲是多么高贵的举措。到这里，自己来看吧。]]></entry>
+		<entry id="placeholder+str_change_pos_back_selfish"><![CDATA[为了这次“探险”我已经付出了太多太多。]]></entry>
+		<entry id="placeholder+str_change_pos_back_selfish"><![CDATA[还不到我上场的时候。不过也快了。]]></entry>
+		<!-- <跳过回合> -->
+		<entry id="placeholder+str_ignore_command_selfish"><![CDATA[为这，我得收双倍赏金。]]></entry>
+		<entry id="placeholder+str_ignore_command_selfish"><![CDATA[……这可不包括在合同内容里。]]></entry>
+		<entry id="placeholder+str_ignore_command_selfish"><![CDATA[你最好让我来处理这个。]]></entry>
+		<!-- <乱放技能> -->
+		<entry id="placeholder+str_random_command_selfish"><![CDATA[啧。让我马上作出决定吧。]]></entry>
+		<entry id="placeholder+str_random_command_selfish"><![CDATA[话说什么时候我变成你的私人女仆了？]]></entry>
+		<entry id="placeholder+str_random_command_selfish"><![CDATA[我可不这么干。你们反对么……？]]></entry>
+		<!-- <自主撤退> -->
+		<entry id="placeholder+str_retreat_from_combat_selfish"><![CDATA[今天还不是我的死期。]]></entry>
+		<entry id="placeholder+str_retreat_from_combat_selfish"><![CDATA[我才不跟你们一起送死！]]></entry>
+		<!-- <挨打> -->
+		<entry id="placeholder+str_comment_self_hit_selfish"><![CDATA[该死的！要缝合的伤口更多了！]]></entry>
+		<entry id="placeholder+str_comment_self_hit_selfish"><![CDATA[嘿！去找那些和你一样…阶级地位的人去！]]></entry>
+		<!-- <队友命中> -->
+		<entry id="placeholder+str_comment_ally_attack_hit_selfish"><![CDATA[啊行……然后再把那些光荣据为己有吧。]]></entry>
+		<entry id="placeholder+str_comment_ally_attack_hit_selfish"><![CDATA[停下！那个东西要接受圣光的制裁！]]></entry>
+		<!-- <队友未命中> -->
+		<entry id="placeholder+str_comment_ally_attack_missed_selfish"><![CDATA[很好。我挨的那一下也能像这样就好了。]]></entry>
+		<entry id="placeholder+str_comment_ally_attack_missed_selfish"><![CDATA[如果我杀了它，我能从战利品中拿点回去吗？]]></entry>
+		<!-- <探索时走动> -->
+		<entry id="placeholder+str_comment_move_selfish"><![CDATA[我绝不为这件差事卖命！一旦形势转变，你们就会发现我回到镇子去了。]]></entry>
+		<entry id="placeholder+str_comment_move_selfish"><![CDATA[你们都应该呆在侧翼保护我一人。]]></entry>
+		<entry id="placeholder+str_comment_move_selfish"><![CDATA[我的背包坏了！谁给我拿一下。]]></entry>
+		<!-- <队友与奇物互动> -->
+		<entry id="placeholder+str_comment_curio_interaction_selfish"><![CDATA[让我看看这东西。它理应归我！]]></entry>
+		<entry id="placeholder+str_comment_curio_interaction_selfish"><![CDATA[毫无疑问宝藏早就被顺走了……]]></entry>
+		<!-- <与奇物互动> -->
+		<entry id="placeholder+trigger_curio_affliction_selfish"><![CDATA[宝物都是我的！]]></entry>
+		<!-- <在英雄列表的喊话> -->
+		<entry id="placeholder+str_roster_list_selfish_bark"><![CDATA[我这么努力，你应该给我点金子报答我！]]></entry>
+		<entry id="placeholder+str_roster_list_selfish_bark"><![CDATA[锻造我的武器和铠甲——只有我对得起这笔钱！]]></entry>
+		<entry id="placeholder+str_roster_list_selfish_bark"><![CDATA[我一次次地牺牲，我的奖励在哪里？]]></entry>
+		<!-- <扎营上压力> -->
+		<entry id="placeholder+str_bark_stress_camp_selfish"><![CDATA[嗯……原来这份工作就是在做慈善么。]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_selfish"><![CDATA[细细一想，其实这次探险是亏本买卖……]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_selfish"><![CDATA[你想和我……共用……我的烟草？啊哈哈哈哈！]]></entry>
+		<!-- <拒绝使用扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_performer_selfish"><![CDATA[……你觉得我看起来像一个“和善”的人吗？]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_selfish"><![CDATA[我正在忙……忙着数我的钱。]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_selfish"><![CDATA[我需要的永远排在首位，而我现在需要小憩一会。]]></entry>
+
+		<!-- <绝望> -->
+		<entry id="cleric+str_afflicted_depressed"><![CDATA[我感觉...头在被捏着。]]></entry>
+		<entry id="cleric+str_afflicted_depressed"><![CDATA[喘不上气...]]></entry>
+		<entry id="cleric+str_afflicted_depressed"><![CDATA[对不起...我自始至终都很没用...]]></entry>
+		<entry id="cleric+str_afflicted_depressed"><![CDATA[我没法做到...是我太自大了...]]></entry>
+		<entry id="cleric+str_afflicted_depressed"><![CDATA[请饶恕我...对不起...]]></entry>
+		<!-- <压力队友> -->
+		<entry id="placeholder+str_bark_stress_depressed"><![CDATA[骰子又是两点……]]></entry>
+		<entry id="placeholder+str_bark_stress_depressed"><![CDATA[这是不可完成的任务。]]></entry>
+		<entry id="placeholder+str_bark_stress_depressed"><![CDATA[这是不可完成的任务。]]></entry>
+		<!-- <乱动> -->
+		<entry id="placeholder+str_change_pos_fwd_depressed"><![CDATA[……]]></entry>
+		<entry id="placeholder+str_change_pos_fwd_depressed"><![CDATA[我觉得，毫无意义。]]></entry>
+		<entry id="placeholder+str_change_pos_fwd_depressed"><![CDATA[这条路，那条路，都无关紧要。]]></entry>
+		<entry id="placeholder+str_change_pos_back_depressed"><![CDATA[我不要为此把我的性命搭上……]]></entry>
+		<entry id="placeholder+str_change_pos_back_depressed"><![CDATA[我潜回黑暗中……]]></entry>
+		<entry id="placeholder+str_change_pos_back_depressed"><![CDATA[啊。让它见鬼去吧。]]></entry>
+		<!-- <跳过回合> -->
+		<entry id="placeholder+str_ignore_command_depressed"><![CDATA[血腥的地狱，为了什么？]]></entry>
+		<entry id="placeholder+str_ignore_command_depressed"><![CDATA[我没为此做打算……我本应该的。]]></entry>
+		<entry id="placeholder+str_ignore_command_depressed"><![CDATA[……]]></entry>
+		<!-- <乱放技能> -->
+		<entry id="placeholder+str_random_command_depressed"><![CDATA[这有何意义？ 我们已经失败了。]]></entry>
+		<entry id="placeholder+str_random_command_depressed"><![CDATA[呵。你的策略糟透了。]]></entry>
+		<entry id="placeholder+str_random_command_depressed"><![CDATA[（低吼）我告诉过你……这毫无意义！]]></entry>
+		<!-- <标记自己> -->
+		<entry id="placeholder+str_mark_self_depressed"><![CDATA[（磨牙）别再浪费我的时间了……]]></entry>
+		<entry id="placeholder+str_mark_self_depressed"><![CDATA[在这个黑暗世界我不会忍受更多的一天！]]></entry>
+		<entry id="placeholder+str_mark_self_depressed"><![CDATA[送我去见圣光吧！我渴求救赎！]]></entry>
+		<!-- <自残> -->
+		<entry id="placeholder+str_attack_self_depressed"><![CDATA[够了……真的够了。]]></entry>
+		<entry id="placeholder+str_attack_self_depressed"><![CDATA[这一生我已经活腻了…]]></entry>
+		<entry id="placeholder+str_attack_self_depressed"><![CDATA[我将自己献给圣光……]]></entry>
+		<!-- <拒绝撤退> -->
+		<entry id="placeholder+str_block_combat_retreat_depressed"><![CDATA[我跟你讲，你也就配在床上睡觉了。]]></entry>
+		<entry id="placeholder+str_block_combat_retreat_depressed"><![CDATA[（嗤鼻）杀或被杀，就是这样。]]></entry>
+		<!-- <拒绝道具> -->
+		<entry id="cleric+str_block_item_depressed"><![CDATA[别在我身上浪费资源了...]]></entry>
+		<entry id="cleric+str_block_item_depressed"><![CDATA[它们应该留给更需要的人。]]></entry>
+		<!-- <探索时走动> -->
+		<entry id="placeholder+str_comment_move_depressed"><![CDATA[我真不幸，我们真不幸。怎么会发展到这个地步呢？]]></entry>
+		<entry id="placeholder+str_comment_move_depressed"><![CDATA[怎么会这样呢？]]></entry>
+		<!-- <触发陷阱> -->
+		<entry id="placeholder+str_comment_trap_triggered_depressed"><![CDATA[……]]></entry>
+		<entry id="placeholder+str_comment_trap_triggered_depressed"><![CDATA[我放弃。]]></entry>
+		<!-- <拒绝治疗> -->
+		<entry id="placeholder+str_block_heal_depressed"><![CDATA[不……不，我已经受够了。]]></entry>
+		<entry id="placeholder+str_block_heal_depressed"><![CDATA[你没法帮我。]]></entry>
+		<entry id="placeholder+str_block_heal_depressed"><![CDATA[走开。让我迎接终点到来。]]></entry>
+		<!-- <拒绝增益> -->
+		<entry id="placeholder+str_block_buff_depressed"><![CDATA[我已不再有提升的价值了。]]></entry>
+		<entry id="placeholder+str_block_buff_depressed"><![CDATA[到底怎样才能改变我们的命运？告诉我？？！]]></entry>
+		<entry id="placeholder+str_block_buff_depressed"><![CDATA[不要。将我留给我的悔恨。]]></entry>
+		<!-- <与奇物互动> -->
+		<entry id="placeholder+trigger_curio_affliction_depressed"><![CDATA[我不关心]]></entry>
+		<!-- <在英雄列表的喊话> -->
+		<entry id="placeholder+str_roster_list_depressed_bark"><![CDATA[为什么我要来这地狱一般的地方……]]></entry>
+		<entry id="placeholder+str_roster_list_depressed_bark"><![CDATA[把我再送下去吧。或者不。一切都不重要了。]]></entry>
+		<entry id="placeholder+str_roster_list_depressed_bark"><![CDATA[未来只有死亡和流血……]]></entry>
+		<!-- <扎营上压力> -->
+		<entry id="placeholder+str_bark_stress_camp_depressed"><![CDATA[……]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_depressed"><![CDATA[（叹气）现在它们可能在劫掠村舍呢……]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_depressed"><![CDATA[我们难逃一死。认识到这一点，再行动。]]></entry>
+		<!-- <拒绝使用扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_performer_depressed"><![CDATA[（沮丧的沉默）]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_depressed"><![CDATA[（沮丧的沉默）]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_depressed"><![CDATA[何必？我们已然迷失，这不是显然的吗。]]></entry>
+		<!-- <拒绝接受扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_target_depressed"><![CDATA[让我静静……]]></entry>
+		<entry id="placeholder+str_block_camping_skill_target_depressed"><![CDATA[别浪费时间了……]]></entry>
+		<entry id="cleric+str_block_camping_skill_performer_depressed"><![CDATA[不必了...不用把资源浪费在我身上...耽误时间了吗？...我又搞砸了...对不起...]]></entry>
+		<!-- <扎营绝食> -->
+		<entry id="placeholder+str_block_camping_meal_depressed"><![CDATA[我不饿。]]></entry>
+		<entry id="placeholder+str_block_camping_meal_depressed"><![CDATA[走开。让我一个人静静。]]></entry>
+
+		<!-- <自虐> -->
+		<entry id="cleric+str_afflicted_masochistic"><![CDATA[我好像感觉不到疼痛了。]]></entry>
+		<entry id="cleric+str_afflicted_masochistic"><![CDATA[只要流的血够多，身体就会更快被净化。]]></entry>
+		<entry id="cleric+str_afflicted_masochistic"><![CDATA[我会帮你们抗住所有伤害的。]]></entry>
+		<entry id="cleric+str_afflicted_masochistic"><![CDATA[我没事，流血不算什么。]]></entry>
+		<entry id="cleric+str_afflicted_masochistic"><![CDATA[痛感还能让我清醒一点，所以没事的。]]></entry>
+		<!-- <压力队友> -->
+		<entry id="placeholder+str_bark_stress_masochistic"><![CDATA[我没挨过的兵器还没造出来呢。]]></entry>
+		<entry id="placeholder+str_bark_stress_masochistic"><![CDATA[我没挨过的兵器还没造出来呢。]]></entry>
+		<entry id="placeholder+str_bark_stress_masochistic"><![CDATA[让我流血？赞成……如果你能的话。]]></entry>
+		<!-- <乱动> -->
+		<entry id="placeholder+str_change_pos_fwd_masochistic"><![CDATA[在我身上试试。来吧……试试看。]]></entry>
+		<entry id="placeholder+str_change_pos_fwd_masochistic"><![CDATA[砍我！来吧，你只会吹牛皮，砍我啊！]]></entry>
+		<entry id="placeholder+str_change_pos_fwd_masochistic"><![CDATA[嚅啊！]]></entry>
+		<!-- <乱放技能> -->
+		<entry id="placeholder+str_random_command_masochistic"><![CDATA[（耸肩）奇怪的伤疤于我无碍。]]></entry>
+		<entry id="placeholder+str_random_command_masochistic"><![CDATA[让我们把事情变得有趣些……]]></entry>
+		<entry id="placeholder+str_random_command_masochistic"><![CDATA[我倒想看看你的能耐，蠢货。]]></entry>
+		<!-- <标记自己> -->
+		<entry id="placeholder+str_mark_self_masochistic"><![CDATA[过来啊！敢不敢碰碰运气！]]></entry>
+		<entry id="placeholder+str_mark_self_masochistic"><![CDATA[哟呵！打这里。（吼叫）]]></entry>
+		<entry id="placeholder+str_mark_self_masochistic"><![CDATA[……]]></entry>
+		<!-- <自残> -->
+		<entry id="placeholder+str_attack_self_masochistic"><![CDATA[静心……静心……就这样……]]></entry>
+		<entry id="placeholder+str_attack_self_masochistic"><![CDATA[血啊，血啊，嗯……]]></entry>
+		<entry id="placeholder+str_attack_self_masochistic"><![CDATA[我……我必须按圣光的旨意照做……]]></entry>
+		<!-- <拒绝撤退> -->
+		<entry id="placeholder+str_block_combat_retreat_masochistic"><![CDATA[还有谁？还有谁！来啊，你们这群混蛋！]]></entry>
+		<entry id="placeholder+str_block_combat_retreat_masochistic"><![CDATA[离我流够血还早着呢。]]></entry>
+		<!-- <挨打> -->
+		<entry id="placeholder+str_comment_self_hit_masochistic"><![CDATA[哈！干得好，我的朋友！]]></entry>
+		<entry id="placeholder+str_comment_self_hit_masochistic"><![CDATA[是啊，是啊，现在我觉醒了！]]></entry>
+		<!-- <闪避攻击> -->
+		<entry id="placeholder+str_comment_self_missed_masochistic"><![CDATA[不，不！你这可怜虫！]]></entry>
+		<entry id="placeholder+str_comment_self_missed_masochistic"><![CDATA[来啊，打我呀！来打我呀！]]></entry>
+		<!-- <队友挨打> -->
+		<entry id="placeholder+str_comment_ally_hit_masochistic"><![CDATA[对……请你让自己受到惩罚。圣光希望如此。]]></entry>
+		<entry id="placeholder+str_comment_ally_hit_masochistic"><![CDATA[嗯……你痛苦的叫声在我耳里犹如天籁之音。]]></entry>
+		<!-- <拒绝换位> -->
+		<entry id="placeholder+str_block_move_masochistic"><![CDATA[我喜欢这里，可以看到盛大的破坏歌剧。]]></entry>
+		<entry id="placeholder+str_block_move_masochistic"><![CDATA[不了，谢谢。我想它是高频得到精神给养的地方。]]></entry>
+		<!-- <拒绝道具> -->
+		<entry id="placeholder+str_block_item_masochistic"><![CDATA[（冷笑）一点伤痛又怎么了？]]></entry>
+		<entry id="placeholder+str_block_item_masochistic"><![CDATA[一边去。我宁愿这样。]]></entry>
+		<!-- <探索时走动> -->
+		<entry id="placeholder+str_comment_move_masochistic"><![CDATA[这个任务会带来我们都渴求，都希望的痛苦！]]></entry>
+		<entry id="placeholder+str_comment_move_masochistic"><![CDATA[前面有什么可怕的东西么？我真是等不及去看看了！]]></entry>
+		<entry id="placeholder+str_comment_move_masochistic"><![CDATA[你感受到恐惧和毁灭了么？真令人愉悦。]]></entry>
+		<!-- <队友与奇物互动> -->
+		<entry id="placeholder+str_comment_curio_interaction_masochistic"><![CDATA[多么精巧的工艺。好疼啊！]]></entry>
+		<entry id="placeholder+str_comment_curio_interaction_masochistic"><![CDATA[有可能，只要有这个装置……太棒了！]]></entry>
+		<!-- <触发陷阱> -->
+		<entry id="placeholder+str_comment_trap_triggered_masochistic"><![CDATA[啊，太好了！它感染了我！弄伤了我！]]></entry>
+		<entry id="placeholder+str_comment_trap_triggered_masochistic"><![CDATA[这是一种伤害的方式吗？当然！]]></entry>
+		<!-- <拒绝治疗> -->
+		<entry id="placeholder+str_block_heal_masochistic"><![CDATA[我选择这一行是有原因的！]]></entry>
+		<entry id="placeholder+str_block_heal_masochistic"><![CDATA[如果我要你帮忙，我铁定会先叫你的。]]></entry>
+		<entry id="placeholder+str_block_heal_masochistic"><![CDATA[我不是小孩。我能忍受痛苦。]]></entry>
+		<!-- <拒绝增益> -->
+		<entry id="placeholder+str_block_buff_masochistic"><![CDATA[不用……我享受这份考验。]]></entry>
+		<entry id="placeholder+str_block_buff_masochistic"><![CDATA[你个蠢驴。唯有流血才能激发热血。]]></entry>
+		<entry id="placeholder+str_block_buff_masochistic"><![CDATA[不。让它们持续不断地来战吧。]]></entry>
+		<!-- <与奇物互动> -->
+		<entry id="placeholder+trigger_curio_affliction_masochistic"><![CDATA[也许赐我一个陷阱或是疾病。]]></entry>
+		<!-- <在英雄列表的喊话> -->
+		<entry id="placeholder+str_roster_list_masochistic_bark"><![CDATA[让我再去一次！我喜欢痛苦！]]></entry>
+		<entry id="placeholder+str_roster_list_masochistic_bark"><![CDATA[让我得到更多的伤痕，再来考验我啊！]]></entry>
+		<entry id="placeholder+str_roster_list_masochistic_bark"><![CDATA[别在我盔甲上花钱——我喜欢流血！]]></entry>
+		<!-- <扎营上压力> -->
+		<entry id="placeholder+str_bark_stress_camp_masochistic"><![CDATA[谁想乘着酒兴来一轮“刀戳指间”的游戏？]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_masochistic"><![CDATA[我自愿担任守夜一职。]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_masochistic"><![CDATA[睡觉？然后错过那喜人的奇袭？天哪，不！]]></entry>
+		<!-- <拒绝使用扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_performer_masochistic"><![CDATA[不。我喜欢血。]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_masochistic"><![CDATA[我宁愿让你自己扛过去。]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_masochistic"><![CDATA[我觉得我应该教你如何享受折磨。]]></entry>
+		<!-- <拒绝接受扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_target_masochistic"><![CDATA[盾牌是给那些怕死的人的。]]></entry>
+		<entry id="placeholder+str_block_camping_skill_target_masochistic"><![CDATA[艰苦并没有什么好羞耻的。]]></entry>
+		<entry id="placeholder+str_block_camping_skill_target_masochistic"><![CDATA[不……邪恶必须得到公正的裁决。]]></entry>
+		<!-- <扎营绝食> -->
+		<entry id="placeholder+str_block_camping_meal_masochistic"><![CDATA[我从不在狩猎中途进食。]]></entry>
+		<entry id="placeholder+str_block_camping_meal_masochistic"><![CDATA[不。该饿肚子就得饿肚子。]]></entry>
+
+		<!-- <狂乱> -->
+		<entry id="cleric+str_afflicted_irrational"><![CDATA[我闻到热可可的香气啦，我们到家了吗？]]></entry>
+		<entry id="cleric+str_afflicted_irrational"><![CDATA[要是能看见神就好了，他一定能帮我们的。]]></entry>
+		<entry id="cleric+str_afflicted_irrational"><![CDATA[别这样啦，圣光才不是点心。]]></entry>
+		<entry id="cleric+str_afflicted_irrational"><![CDATA[你的味道好香，我想咬一口。]]></entry>
+		<entry id="cleric+str_afflicted_irrational"><![CDATA[我好像看到了天使们，他们是来接我的吗？]]></entry>
+		<!-- <压力队友> -->
+		<entry id="placeholder+str_bark_stress_irrational"><![CDATA[拿我的针来！这些伤口必须被缝合起来！]]></entry>
+		<entry id="placeholder+str_bark_stress_irrational"><![CDATA[一个带名字石头墓穴……所有人都将安息……]]></entry>
+		<entry id="placeholder+str_bark_stress_irrational"><![CDATA[锁坏掉了，匣子打开了……]]></entry>
+		<!-- <乱动> -->
+		<entry id="placeholder+str_change_pos_fwd_irrational"><![CDATA[我在撤退——真的吗？]]></entry>
+		<entry id="placeholder+str_change_pos_fwd_irrational"><![CDATA[我弃了一手同花好牌！]]></entry>
+		<entry id="placeholder+str_change_pos_fwd_irrational"><![CDATA[……]]></entry>
+		<entry id="placeholder+str_change_pos_back_irrational"><![CDATA[我在后退——或者没有？]]></entry>
+		<entry id="placeholder+str_change_pos_back_irrational"><![CDATA[我弃掉了一手同花大牌！]]></entry>
+		<entry id="placeholder+str_change_pos_back_irrational"><![CDATA[……]]></entry>
+		<!-- <跳过回合> -->
+		<entry id="placeholder+str_ignore_command_irrational"><![CDATA[在我拿到那块我应得的烤肉之前不能动。]]></entry>
+		<entry id="placeholder+str_ignore_command_irrational"><![CDATA[我必须打磨我的斧子，计划我的进攻！]]></entry>
+		<entry id="placeholder+str_ignore_command_irrational"><![CDATA[除非你把我的报酬提高三倍。不—四倍。]]></entry>
+		<!-- <乱放技能> -->
+		<entry id="placeholder+str_random_command_irrational"><![CDATA[黑土地吞掉了我！我看不见！]]></entry>
+		<entry id="placeholder+str_random_command_irrational"><![CDATA[遍地的金币和玫瑰上的红唇……]]></entry>
+		<entry id="placeholder+str_random_command_irrational"><![CDATA[龙涎香，幽谷的百合，还有熏烧的栎树……]]></entry>
+		<!-- <自主撤退> -->
+		<entry id="placeholder+str_retreat_from_combat_irrational"><![CDATA[那是什么声音？是在为我准备盛宴么？]]></entry>
+		<entry id="placeholder+str_retreat_from_combat_irrational"><![CDATA[嚯！那远方的星辰就是我的目的地！]]></entry>
+		<!-- <标记自己> -->
+		<entry id="placeholder+str_mark_self_irrational"><![CDATA[灵魂们……他们呐喊着……痛苦与恐惧！]]></entry>
+		<entry id="placeholder+str_mark_self_irrational"><![CDATA[先祖们渴望着鲜血！你的鲜血！]]></entry>
+		<entry id="placeholder+str_mark_self_irrational"><![CDATA[你可知道我是不死的？来，亲身体会吧。]]></entry>
+		<!-- <伤害队友> -->
+		<entry id="placeholder+str_attack_friendly_irrational"><![CDATA[……]]></entry>
+		<entry id="placeholder+str_attack_friendly_irrational"><![CDATA[喝啊——！]]></entry>
+		<entry id="placeholder+str_attack_friendly_irrational"><![CDATA[恶魔！来自深处的亵渎之物！]]></entry>
+		<!-- <自残> -->
+		<entry id="placeholder+str_attack_self_irrational"><![CDATA[（疯狂的咕噜和喘气）]]></entry>
+		<entry id="placeholder+str_attack_self_irrational"><![CDATA[……]]></entry>
+		<entry id="placeholder+str_attack_self_irrational"><![CDATA[父亲！我藐视你生下了我！]]></entry>
+		<!-- <拒绝撤退> -->
+		<entry id="placeholder+str_block_combat_retreat_irrational"><![CDATA[我的热血和仇恨！]]></entry>
+		<entry id="placeholder+str_block_combat_retreat_irrational"><![CDATA[嗷啊——！]]></entry>
+		<!-- <挨打> -->
+		<entry id="placeholder+str_comment_self_hit_irrational"><![CDATA[屈服于圣光吧，异教徒！]]></entry>
+		<entry id="placeholder+str_comment_self_hit_irrational"><![CDATA[神父！……神父！！我会听话！]]></entry>
+		<!-- <闪避攻击> -->
+		<entry id="placeholder+str_comment_self_missed_irrational"><![CDATA[（像一个黄鼠狼一样吠叫）]]></entry>
+		<entry id="placeholder+str_comment_self_missed_irrational"><![CDATA[……]]></entry>
+		<!-- <队友命中> -->
+		<entry id="placeholder+str_comment_ally_attack_hit_irrational"><![CDATA[对！杀光它们！]]></entry>
+		<entry id="placeholder+str_comment_ally_attack_hit_irrational"><![CDATA[对！杀光它们！]]></entry>
+		<!-- <队友未命中> -->
+		<entry id="placeholder+str_comment_ally_attack_missed_irrational"><![CDATA[蠢货！你这个蠢货！]]></entry>
+		<entry id="placeholder+str_comment_ally_attack_missed_irrational"><![CDATA[晚上睡觉的时候给我小心点，你这个充内行的骗子……]]></entry>
+		<!-- <队友挨打> -->
+		<entry id="placeholder+str_comment_ally_hit_irrational"><![CDATA[去死！去死！去死啊啊啊啊！]]></entry>
+		<entry id="placeholder+str_comment_ally_hit_irrational"><![CDATA[不……我说不，女士！]]></entry>
+		<!-- <队友闪避> -->
+		<entry id="placeholder+str_comment_ally_missed_irrational"><![CDATA[宝贝儿，把上好的餐巾拿来。谢谢，亲爱的。]]></entry>
+		<entry id="placeholder+str_comment_ally_missed_irrational"><![CDATA[噢老兄，我会去弥补我这个过错的。]]></entry>
+		<!-- <拒绝换位> -->
+		<entry id="placeholder+str_block_move_irrational"><![CDATA[不断蔓延的黑暗，狂欢的首次演出……都应当在此处灭亡。]]></entry>
+		<entry id="placeholder+str_block_move_irrational"><![CDATA[无礼与歌曲……都预示着黑夜的回归。]]></entry>
+		<!-- <拒绝道具> -->
+		<entry id="placeholder+str_block_item_irrational"><![CDATA[不！不要，父亲，别！不要管我！]]></entry>
+		<entry id="placeholder+str_block_item_irrational"><![CDATA[这就是我为什么要参与圣讨。快，给我带只鹅来。]]></entry>
+		<!-- <探索时走动> -->
+		<entry id="placeholder+str_comment_move_irrational"><![CDATA[一步还是两步，我才不管呢！]]></entry>
+		<entry id="placeholder+str_comment_move_irrational"><![CDATA[都动起来，我都饿了！]]></entry>
+		<entry id="placeholder+str_comment_move_irrational"><![CDATA[感觉阳光照在你的额头上！好清爽!]]></entry>
+		<!-- <队友与奇物互动> -->
+		<entry id="placeholder+str_comment_curio_interaction_irrational"><![CDATA[这个镀金的装饰物是什么？]]></entry>
+		<entry id="placeholder+str_comment_curio_interaction_irrational"><![CDATA[啊快看！这里有什么……]]></entry>
+		<!-- <触发陷阱> -->
+		<entry id="placeholder+str_comment_trap_triggered_irrational"><![CDATA[这块地方是属于我的！只属于我的！]]></entry>
+		<entry id="placeholder+str_comment_trap_triggered_irrational"><![CDATA[多么精巧啊！]]></entry>
+		<!-- <拒绝治疗> -->
+		<entry id="placeholder+str_block_heal_irrational"><![CDATA[再碰我我就把你像个木桩一样打退。]]></entry>
+		<entry id="placeholder+str_block_heal_irrational"><![CDATA[啊啊！]]></entry>
+		<entry id="placeholder+str_block_heal_irrational"><![CDATA[切！我是无敌的！]]></entry>
+		<!-- <拒绝增益> -->
+		<entry id="placeholder+str_block_buff_irrational"><![CDATA[别碰我，除非你想死。]]></entry>
+		<entry id="placeholder+str_block_buff_irrational"><![CDATA[（咆哮）]]></entry>
+		<entry id="placeholder+str_block_buff_irrational"><![CDATA[后退！后退，你个恶魔！]]></entry>
+		<!-- <在英雄列表的喊话> -->
+		<entry id="placeholder+str_roster_list_irrational_bark"><![CDATA[哈哈哈！嘻嘻！]]></entry>
+		<entry id="placeholder+str_roster_list_irrational_bark"><![CDATA[它在扭动、翻转，但它什么也没说！]]></entry>
+		<entry id="placeholder+str_roster_list_irrational_bark"><![CDATA[一千只眼睛——凝视着我，眨着！我受不了！]]></entry>
+		<!-- <扎营上压力> -->
+		<entry id="placeholder+str_bark_stress_camp_irrational"><![CDATA[我都有一生没见到太阳了……]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_irrational"><![CDATA[我好想打一架……你——亮剑吧！]]></entry>
+		<entry id="placeholder+str_bark_stress_camp_irrational"><![CDATA[我喜欢你的气味。就像烹熟的狗。（哼响鼻）]]></entry>
+		<!-- <拒绝使用扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_performer_irrational"><![CDATA[走开！你没看见我已经让他去做我想让他做的事了吗？]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_irrational"><![CDATA[(无意识地哀号)]]></entry>
+		<entry id="placeholder+str_block_camping_skill_performer_irrational"><![CDATA[为什么——我都忘了我在这带来死亡的裹尸布下长什么样了！我看看……]]></entry>
+		<!-- <拒绝接受扎营技能> -->
+		<entry id="placeholder+str_block_camping_skill_target_irrational"><![CDATA[滚开！不然我就会打倒你！]]></entry>
+		<entry id="placeholder+str_block_camping_skill_target_irrational"><![CDATA[这些伤痕在内部…如此的古老……]]></entry>
+		<entry id="placeholder+str_block_camping_skill_target_irrational"><![CDATA[我……我只想要一件东西，一件禁物。]]></entry>
+		<!-- <扎营绝食> -->
+		<entry id="placeholder+str_block_camping_meal_irrational"><![CDATA[扯掉翅膀，看着它挣扎……]]></entry>
+		<entry id="placeholder+str_block_camping_meal_irrational"><![CDATA[像羹里的肉……羹里的肉……肉啊，肉……]]></entry>
+
+		<!-- <浪费时间> -->
+		<entry id="placeholder+str_combat_wastingtime"><![CDATA[我们为何要拖延而迎接更大的危险？]]></entry>
+		<entry id="placeholder+str_combat_wastingtime"><![CDATA[我们正在跟这个废物浪费时间！]]></entry>
+		<entry id="placeholder+str_combat_wastingtime"><![CDATA[让我们干掉这些东西继续吧。]]></entry>
+		<entry id="placeholder+str_combat_wastingtime"><![CDATA[和这些生物玩弄是没有好处的。]]></entry>
+
+		<!-- <心衰减益扎营词条> -->
+		<entry id="camping_skill_requirement_has_deaths_door_recovery_heart_attack_buffs"><![CDATA[{colour_start|stress}心衰减益{colour_end}]]></entry>
+		
+	</language>
+</root>
